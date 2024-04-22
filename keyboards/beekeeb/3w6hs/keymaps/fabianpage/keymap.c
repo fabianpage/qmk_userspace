@@ -60,8 +60,8 @@ enum layers {
     _SYM2,
 };
 
-#define L_NUM TT(_NUM)
-#define L_BETA TT(_BETA)
+#define L_NUM OSL(_NUM)
+#define L_BETA OSL(_BETA)
 #define L_NAV TT(_NAV)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -113,19 +113,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                 _______       , _______  , _______ , OSM(MOD_LCTL) , OSM(MOD_LSFT) , OSM(MOD_LGUI)
 ),
 
-//        ┌─────┬───┬───┬─────┬─────┐           ┌─────┬─────┬───┬───┬────────────┐
-//        │     │ 9 │ 8 │  7  │     │           │     │  7  │ 8 │ 9 │  CH_PLUS   │
-//        ├─────┼───┼───┼─────┼─────┤           ├─────┼─────┼───┼───┼────────────┤
-//        │  0  │ 6 │ 5 │  4  │     │           │     │  4  │ 5 │ 6 │     0      │
-//        ├─────┼───┼───┼─────┼─────┤           ├─────┼─────┼───┼───┼────────────┤
-//        │     │ 3 │ 2 │  1  │     │           │     │  1  │ 2 │ 3 │ TO(_ALPHA) │
-//        └─────┴───┴───┼─────┼─────┼─────┬─────┼─────┼─────┼───┴───┴────────────┘
-//                      │     │     │     │     │     │     │
-//                      └─────┴─────┴─────┴─────┴─────┴─────┘
+//        ┌─────┬───┬───┬─────┬─────┐           ┌─────────┬─────┬───┬───┬────────────┐
+//        │     │ 9 │ 8 │  7  │     │           │ CH_MINS │  7  │ 8 │ 9 │  CH_PLUS   │
+//        ├─────┼───┼───┼─────┼─────┤           ├─────────┼─────┼───┼───┼────────────┤
+//        │  0  │ 6 │ 5 │  4  │     │           │ CH_DOT  │  4  │ 5 │ 6 │     0      │
+//        ├─────┼───┼───┼─────┼─────┤           ├─────────┼─────┼───┼───┼────────────┤
+//        │     │ 3 │ 2 │  1  │     │           │ CH_COMM │  1  │ 2 │ 3 │ TO(_ALPHA) │
+//        └─────┴───┴───┼─────┼─────┼─────┬─────┼─────────┼─────┼───┴───┴────────────┘
+//                      │     │     │     │     │         │     │
+//                      └─────┴─────┴─────┴─────┴─────────┴─────┘
 [_NUM] = LAYOUT_split_3x5_3(
-      _______ , KC_9 , KC_8 , KC_7    , _______ ,                     _______ , KC_7    , KC_8 , KC_9 , CH_PLUS   ,
-      KC_0    , KC_6 , KC_5 , KC_4    , _______ ,                     _______ , KC_4    , KC_5 , KC_6 , KC_0      ,
-      _______ , KC_3 , KC_2 , KC_1    , _______ ,                     _______ , KC_1    , KC_2 , KC_3 , TO(_ALPHA),
+      _______ , KC_9 , KC_8 , KC_7    , _______ ,                     CH_MINS , KC_7    , KC_8 , KC_9 , CH_PLUS   ,
+      KC_0    , KC_6 , KC_5 , KC_4    , _______ ,                     CH_DOT  , KC_4    , KC_5 , KC_6 , KC_0      ,
+      _______ , KC_3 , KC_2 , KC_1    , _______ ,                     CH_COMM , KC_1    , KC_2 , KC_3 , TO(_ALPHA),
                               _______ , _______ , _______ , _______ , _______ , _______
 ),
 
@@ -169,7 +169,7 @@ const uint16_t PROGMEM combo1[] = { KC_X, MT(MOD_LGUI, KC_Q), COMBO_END};
 const uint16_t PROGMEM combo2[] = { CH_QST, KC_END, COMBO_END};
 const uint16_t PROGMEM combo3[] = { CH_BSLS, CH_AT, COMBO_END};
 const uint16_t PROGMEM combo4[] = { KC_9, CH_PLUS, COMBO_END};
-const uint16_t PROGMEM combo5[] = { MT(MOD_LCTL, KC_U), MT(MOD_LALT, KC_T), COMBO_END};
+const uint16_t PROGMEM combo5[] = { MT(MOD_LCTL, KC_U),  KC_T, COMBO_END};
 const uint16_t PROGMEM combo6[] = { MT(MOD_LSFT, KC_F), CH_OE, COMBO_END};
 const uint16_t PROGMEM combo7[] = { CH_LBRC, CH_LPRN, COMBO_END};
 const uint16_t PROGMEM combo8[] = { MT(MOD_LSFT, KC_R), KC_E, COMBO_END};
@@ -187,10 +187,10 @@ combo_t key_combos[] = {
     COMBO(combo6, KC_SPACE),
     COMBO(combo7, KC_SPACE),
     COMBO(combo8, KC_SPACE),
-    // COMBO(combo9, ST_MACRO_0),
+    // COMBO(combo9, ST_MACRO_AE),
     COMBO(combo9, KC_ENTER),
-    COMBO(combo10, TT(_SYM)),
-    COMBO(combo11, TT(_SYM2)),
+    COMBO(combo10, OSM(_SYM)),
+    COMBO(combo11, OSM(_SYM2)),
 };
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
