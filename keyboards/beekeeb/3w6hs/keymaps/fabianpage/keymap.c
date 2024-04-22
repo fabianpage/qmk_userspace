@@ -113,19 +113,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                 _______       , _______  , _______ , OSM(MOD_LCTL) , OSM(MOD_LSFT) , OSM(MOD_LGUI)
 ),
 
-//        ┌─────┬───┬───┬─────┬─────┐           ┌─────┬─────┬───┬───┬─────────┐
-//        │     │ 9 │ 8 │  7  │     │           │     │  7  │ 8 │ 9 │ CH_PLUS │
-//        ├─────┼───┼───┼─────┼─────┤           ├─────┼─────┼───┼───┼─────────┤
-//        │  0  │ 6 │ 5 │  4  │     │           │     │  4  │ 5 │ 6 │    0    │
-//        ├─────┼───┼───┼─────┼─────┤           ├─────┼─────┼───┼───┼─────────┤
-//        │     │ 3 │ 2 │  1  │     │           │     │  1  │ 2 │ 3 │         │
-//        └─────┴───┴───┼─────┼─────┼─────┬─────┼─────┼─────┼───┴───┴─────────┘
+//        ┌─────┬───┬───┬─────┬─────┐           ┌─────┬─────┬───┬───┬────────────┐
+//        │     │ 9 │ 8 │  7  │     │           │     │  7  │ 8 │ 9 │  CH_PLUS   │
+//        ├─────┼───┼───┼─────┼─────┤           ├─────┼─────┼───┼───┼────────────┤
+//        │  0  │ 6 │ 5 │  4  │     │           │     │  4  │ 5 │ 6 │     0      │
+//        ├─────┼───┼───┼─────┼─────┤           ├─────┼─────┼───┼───┼────────────┤
+//        │     │ 3 │ 2 │  1  │     │           │     │  1  │ 2 │ 3 │ TO(_ALPHA) │
+//        └─────┴───┴───┼─────┼─────┼─────┬─────┼─────┼─────┼───┴───┴────────────┘
 //                      │     │     │     │     │     │     │
 //                      └─────┴─────┴─────┴─────┴─────┴─────┘
 [_NUM] = LAYOUT_split_3x5_3(
-      _______ , KC_9 , KC_8 , KC_7    , _______ ,                     _______ , KC_7    , KC_8 , KC_9 , CH_PLUS,
-      KC_0    , KC_6 , KC_5 , KC_4    , _______ ,                     _______ , KC_4    , KC_5 , KC_6 , KC_0   ,
-      _______ , KC_3 , KC_2 , KC_1    , _______ ,                     _______ , KC_1    , KC_2 , KC_3 , _______,
+      _______ , KC_9 , KC_8 , KC_7    , _______ ,                     _______ , KC_7    , KC_8 , KC_9 , CH_PLUS   ,
+      KC_0    , KC_6 , KC_5 , KC_4    , _______ ,                     _______ , KC_4    , KC_5 , KC_6 , KC_0      ,
+      _______ , KC_3 , KC_2 , KC_1    , _______ ,                     _______ , KC_1    , KC_2 , KC_3 , TO(_ALPHA),
                               _______ , _______ , _______ , _______ , _______ , _______
 ),
 
@@ -201,10 +201,9 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     }
     case ST_MACRO_AE:
     if (record->event.pressed) {
-      SEND_STRING(SS_TAP(X_CAPS) SS_DELAY(100) "ä" SS_DELAY(100) SS_TAP(X_CAPS));
+      SEND_STRING(SS_TAP(X_CAPS) SS_DELAY(100) SS_TAP(X_A) SS_DELAY(100) SS_TAP(X_QUOTE) SS_DELAY(100) SS_TAP(X_CAPS));
     }
     break;
-
   }
   return true;
 }
@@ -219,7 +218,8 @@ layer_state_t layer_state_set_user(layer_state_t state) {
 }
 
 const key_override_t delete_override = ko_make_basic(MOD_MASK_SHIFT, KC_BSPC, KC_DEL);
-const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, CH_AE, ST_MACRO_AE);
+// const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, CH_AE, ST_MACRO_AE);
+const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, CH_AE, KC_Z);
 const key_override_t **key_overrides = (const key_override_t *[]){
     &delete_override,
     &ae_override,
