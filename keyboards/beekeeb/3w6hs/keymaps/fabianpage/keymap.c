@@ -64,21 +64,30 @@ enum layers {
 #define L_BETA OSL(_BETA)
 #define L_NAV TT(_NAV)
 
+#define CTL_U MT(MOD_LCTL, KC_U)
+#define GUI_O MT(MOD_LGUI, KC_O)
+#define ALT_N MT(MOD_LALT, KC_N)
+#define SFT_R MT(MOD_LSFT, KC_R)
+#define SFT_A MT(MOD_LSFT, KC_A)
+#define ALT_S MT(MOD_LALT, KC_S)
+#define GUI_V MT(MOD_LGUI, KC_V)
+#define CTL_L MT(MOD_LCTL, KC_L)
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-//        ┌─────────────────┬─────────────────┬───┬─────────────────┬─────────────────┐                    ┌─────────────────┬─────────────────┬───┬─────────────────┬─────────────────┐
-//        │        p        │ MT(MOD_LGUI, o) │ i │ MT(MOD_LCTL, u) │        t        │                    │        t        │ MT(MOD_LCTL, u) │ i │ MT(MOD_LGUI, o) │        p        │
-//        ├─────────────────┼─────────────────┼───┼─────────────────┼─────────────────┤                    ├─────────────────┼─────────────────┼───┼─────────────────┼─────────────────┤
-//        │ MT(MOD_LALT, s) │ MT(MOD_LSFT, a) │ e │ MT(MOD_LSFT, r) │ MT(MOD_LALT, n) │                    │ MT(MOD_LALT, n) │ MT(MOD_LSFT, r) │ e │ MT(MOD_LSFT, a) │ MT(MOD_LALT, s) │
-//        ├─────────────────┼─────────────────┼───┼─────────────────┼─────────────────┤                    ├─────────────────┼─────────────────┼───┼─────────────────┼─────────────────┤
-//        │        d        │ MT(MOD_LCTL, l) │ c │ MT(MOD_LGUI, v) │        h        │                    │        h        │ MT(MOD_LGUI, v) │ c │ MT(MOD_LCTL, l) │        d        │
-//        └─────────────────┴─────────────────┴───┼─────────────────┼─────────────────┼────────────┬───────┼─────────────────┼─────────────────┼───┴─────────────────┴─────────────────┘
-//                                                │ LT(_ALPHA, spc) │  LT(_NAV, ent)  │ LT(3, tab) │ L_NUM │     L_BETA      │      L_NAV      │
-//                                                └─────────────────┴─────────────────┴────────────┴───────┴─────────────────┴─────────────────┘
+//        ┌───────┬───────┬───┬───────┬────────┐               ┌────────┬───────┬───┬───────┬───────┐
+//        │   p   │ GUI_O │ i │ CTL_U │   t    │               │   t    │ CTL_U │ i │ GUI_O │   p   │
+//        ├───────┼───────┼───┼───────┼────────┤               ├────────┼───────┼───┼───────┼───────┤
+//        │ ALT_S │ SFT_A │ e │ SFT_R │ ALT_N  │               │ ALT_N  │ SFT_R │ e │ SFT_A │ ALT_S │
+//        ├───────┼───────┼───┼───────┼────────┤               ├────────┼───────┼───┼───────┼───────┤
+//        │   d   │ CTL_L │ c │ GUI_V │   h    │               │   h    │ GUI_V │ c │ CTL_L │   d   │
+//        └───────┴───────┴───┼───────┼────────┼───────┬───────┼────────┼───────┼───┴───────┴───────┘
+//                            │ L_NAV │ L_BETA │ L_NUM │ L_NUM │ L_BETA │ L_NAV │
+//                            └───────┴────────┴───────┴───────┴────────┴───────┘
 [_ALPHA] = LAYOUT_split_3x5_3(
-      KC_P               , MT(MOD_LGUI, KC_O) , KC_I , MT(MOD_LCTL, KC_U)   , KC_T               ,                         KC_T               , MT(MOD_LCTL, KC_U) , KC_I , MT(MOD_LGUI, KC_O) , KC_P              ,
-      MT(MOD_LALT, KC_S) , MT(MOD_LSFT, KC_A) , KC_E , MT(MOD_LSFT, KC_R)   , MT(MOD_LALT, KC_N) ,                         MT(MOD_LALT, KC_N) , MT(MOD_LSFT, KC_R) , KC_E , MT(MOD_LSFT, KC_A) , MT(MOD_LALT, KC_S),
-      KC_D               , MT(MOD_LCTL, KC_L) , KC_C , MT(MOD_LGUI, KC_V)   , KC_H               ,                         KC_H               , MT(MOD_LGUI, KC_V) , KC_C , MT(MOD_LCTL, KC_L) , KC_D              ,
-                                                       LT(_ALPHA, KC_SPACE) , LT(_NAV, KC_ENTER) , LT(3, KC_TAB) , L_NUM , L_BETA             , L_NAV
+      KC_P  , GUI_O , KC_I , CTL_U , KC_T   ,                 KC_T   , CTL_U , KC_I , GUI_O , KC_P ,
+      ALT_S , SFT_A , KC_E , SFT_R , ALT_N  ,                 ALT_N  , SFT_R , KC_E , SFT_A , ALT_S,
+      KC_D  , CTL_L , KC_C , GUI_V , KC_H   ,                 KC_H   , GUI_V , KC_C , CTL_L , KC_D ,
+                             L_NAV , L_BETA , L_NUM , L_NUM , L_BETA , L_NAV
 ),
 
 //        ┌──────────────────────┬─────────────────────┬───────┬─────────────────┬─────────────────┐           ┌─────────────────┬─────────────────┬───────┬─────────────────────┬─────────────────────┐
@@ -148,7 +157,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //        ┌─────────┬─────────┬─────────┬─────────┬─────────┐           ┌─────────┬─────┬─────┬─────────┬────────────┐
 //        │  CH_AT  │ CH_BSLS │    ,    │    .    │ CH_SLSH │           │ CH_SLSH │  .  │  ,  │ CH_BSLS │   CH_AT    │
 //        ├─────────┼─────────┼─────────┼─────────┼─────────┤           ├─────────┼─────┼─────┼─────────┼────────────┤
-//        │ CH_PAST │ CH_LCBR │ CH_LBRC │ CH_LPRN │ CH_LESS │           │         │     │     │         │            │
+//        │ CH_PAST │ CH_LCBR │ CH_LBRC │ CH_LPRN │ CH_LESS │           │         │     │     │         │  QK_BOOT   │
 //        ├─────────┼─────────┼─────────┼─────────┼─────────┤           ├─────────┼─────┼─────┼─────────┼────────────┤
 //        │         │ CH_RCBR │ CH_RBRC │ CH_RPRN │ CH_MORE │           │         │     │     │         │ TO(_ALPHA) │
 //        └─────────┴─────────┴─────────┼─────────┼─────────┼─────┬─────┼─────────┼─────┼─────┴─────────┴────────────┘
@@ -156,7 +165,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //                                      └─────────┴─────────┴─────┴─────┴─────────┴─────┘
 [_SYM2] = LAYOUT_split_3x5_3(
       CH_AT   , CH_BSLS , KC_COMMA , KC_DOT  , CH_SLSH ,                     CH_SLSH , KC_DOT  , KC_COMMA , CH_BSLS , CH_AT     ,
-      CH_PAST , CH_LCBR , CH_LBRC  , CH_LPRN , CH_LESS ,                     _______ , _______ , _______  , _______ , _______   ,
+      CH_PAST , CH_LCBR , CH_LBRC  , CH_LPRN , CH_LESS ,                     _______ , _______ , _______  , _______ , QK_BOOT   ,
       _______ , CH_RCBR , CH_RBRC  , CH_RPRN , CH_MORE ,                     _______ , _______ , _______  , _______ , TO(_ALPHA),
                                      _______ , _______ , _______ , _______ , _______ , _______
 )
@@ -219,9 +228,13 @@ layer_state_t layer_state_set_user(layer_state_t state) {
 
 const key_override_t delete_override = ko_make_basic(MOD_MASK_SHIFT, KC_BSPC, KC_DEL);
 // const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, CH_AE, ST_MACRO_AE);
-const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, CH_AE, KC_Z);
+const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, MT(MOD_LSFT, CH_AE), KC_Z);
+const key_override_t ue_override = ko_make_basic(MOD_MASK_SHIFT, CH_UE, KC_X);
+const key_override_t oe_override = ko_make_basic(MOD_MASK_SHIFT, CH_OE, KC_Y);
 const key_override_t **key_overrides = (const key_override_t *[]){
     &delete_override,
     &ae_override,
+    &ue_override,
+    &oe_override,
     NULL // Null terminate the array of overrides!
 };
