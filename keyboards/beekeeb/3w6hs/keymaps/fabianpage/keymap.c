@@ -19,7 +19,7 @@
 #include "modifiers.h"
 #include QMK_KEYBOARD_H
 #include "keymap_swiss_de.h"
-
+#include "print.h"
 
 #define CH_Z KC_Y
 #define CH_DLR KC_NUHS // $
@@ -60,147 +60,178 @@ enum layers {
     _SYM2,
 };
 
-#define L_NUM OSL(_NUM)
+#define L_NUM TT(_NUM)
 #define L_BETA OSL(_BETA)
 #define L_NAV TT(_NAV)
 
-#define CTL_U MT(MOD_LCTL, KC_U)
-#define GUI_O MT(MOD_LGUI, KC_O)
-#define ALT_N MT(MOD_LALT, KC_N)
-#define SFT_R MT(MOD_LSFT, KC_R)
-#define SFT_A MT(MOD_LSFT, KC_A)
-#define ALT_S MT(MOD_LALT, KC_S)
-#define GUI_V MT(MOD_LGUI, KC_V)
-#define CTL_L MT(MOD_LCTL, KC_L)
+#define U_CTL MT(MOD_LCTL, KC_U)
+#define O_GUI MT(MOD_LGUI, KC_O)
+#define N_ALT MT(MOD_LALT, KC_N)
+#define R_SFT MT(MOD_LSFT, KC_R)
+#define A_SFT MT(MOD_LSFT, KC_A)
+#define S_ALT MT(MOD_LALT, KC_S)
+#define V_GUI MT(MOD_LGUI, KC_V)
+#define L_CTL MT(MOD_LCTL, KC_L)
+
+#define M_CTL MT(MOD_LCTL, KC_M)
+#define Q_GUI MT(MOD_LGUI, KC_Q)
+#define G_ALT MT(MOD_LALT, KC_G)
+#define F_SFT MT(MOD_LSFT, KC_F)
+#define AE_SFT MT(MOD_LSFT, CH_AE)
+#define UE_ALT MT(MOD_LALT, CH_UE)
+#define J_GUI MT(MOD_LGUI, KC_J)
+#define Y_CTL MT(MOD_LCTL, CH_Y)
+
+#define LAYOUT_mirror(k0,k1,k2,k3,k4, k5,k6,k7,k8,k9, k10,k11,k12,k13,k14, k15,k16,k17) LAYOUT_split_3x5_3(k4,k3,k2,k1,k0, k0,k1,k2,k3,k4, k9,k8,k7,k6,k5, k5,k6,k7,k8,k9, k14,k13,k12,k11,k10, k10,k11,k12,k13,k14, k17, k16, k15, k15, k16,k17)
+
+
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-//        ┌───────┬───────┬───┬───────┬────────┐               ┌────────┬───────┬───┬───────┬───────┐
-//        │   p   │ GUI_O │ i │ CTL_U │   t    │               │   t    │ CTL_U │ i │ GUI_O │   p   │
-//        ├───────┼───────┼───┼───────┼────────┤               ├────────┼───────┼───┼───────┼───────┤
-//        │ ALT_S │ SFT_A │ e │ SFT_R │ ALT_N  │               │ ALT_N  │ SFT_R │ e │ SFT_A │ ALT_S │
-//        ├───────┼───────┼───┼───────┼────────┤               ├────────┼───────┼───┼───────┼───────┤
-//        │   d   │ CTL_L │ c │ GUI_V │   h    │               │   h    │ GUI_V │ c │ CTL_L │   d   │
-//        └───────┴───────┴───┼───────┼────────┼───────┬───────┼────────┼───────┼───┴───────┴───────┘
-//                            │ L_NAV │ L_BETA │ L_NUM │ L_NUM │ L_BETA │ L_NAV │
-//                            └───────┴────────┴───────┴───────┴────────┴───────┘
-[_ALPHA] = LAYOUT_split_3x5_3(
-      KC_P  , GUI_O , KC_I , CTL_U , KC_T   ,                 KC_T   , CTL_U , KC_I , GUI_O , KC_P ,
-      ALT_S , SFT_A , KC_E , SFT_R , ALT_N  ,                 ALT_N  , SFT_R , KC_E , SFT_A , ALT_S,
-      KC_D  , CTL_L , KC_C , GUI_V , KC_H   ,                 KC_H   , GUI_V , KC_C , CTL_L , KC_D ,
-                             L_NAV , L_BETA , L_NUM , L_NUM , L_BETA , L_NAV
+//            ┌────────┬───────┬───┬───────┬───────┐
+//            │   t    │ U_CTL │ i │ O_GUI │   p   │
+//            ├────────┼───────┼───┼───────┼───────┤
+//            │ N_ALT  │ R_SFT │ e │ A_SFT │ S_ALT │
+//            ├────────┼───────┼───┼───────┼───────┤
+//            │   h    │ V_GUI │ c │ L_CTL │   d   │
+//    ┌───────┼────────┼───────┼───┴───────┴───────┘
+//    │ L_NUM │ L_BETA │ L_NAV │
+//    └───────┴────────┴───────┘
+[_ALPHA] = LAYOUT_mirror(
+          KC_T   , U_CTL , KC_I , O_GUI , KC_P ,
+          N_ALT  , R_SFT , KC_E , A_SFT , S_ALT,
+          KC_H   , V_GUI , KC_C , L_CTL , KC_D ,
+  L_NUM , L_BETA , L_NAV
 ),
 
-//        ┌──────────────────────┬─────────────────────┬───────┬─────────────────┬─────────────────┐           ┌─────────────────┬─────────────────┬───────┬─────────────────────┬─────────────────────┐
-//        │          x           │   MT(MOD_LGUI, q)   │   w   │ MT(MOD_LCTL, m) │      CH_Z       │           │      CH_Z       │ MT(MOD_LCTL, m) │   w   │   MT(MOD_LGUI, q)   │          x          │
-//        ├──────────────────────┼─────────────────────┼───────┼─────────────────┼─────────────────┤           ├─────────────────┼─────────────────┼───────┼─────────────────────┼─────────────────────┤
-//        │ MT(MOD_LALT, CH_DLR) │ MT(MOD_LSFT, CH_AE) │ CH_OE │ MT(MOD_LSFT, f) │ MT(MOD_LALT, g) │           │ MT(MOD_LALT, g) │ MT(MOD_LSFT, f) │ CH_OE │ MT(MOD_LSFT, CH_AE) │ MT(MOD_LALT, CH_UE) │
-//        ├──────────────────────┼─────────────────────┼───────┼─────────────────┼─────────────────┤           ├─────────────────┼─────────────────┼───────┼─────────────────────┼─────────────────────┤
-//        │        CH_UE         │ MT(MOD_LCTL, CH_Y)  │   k   │ MT(MOD_LGUI, j) │        b        │           │        b        │ MT(MOD_LGUI, j) │   k   │ MT(MOD_LCTL, CH_Y)  │     TO(_ALPHA)      │
-//        └──────────────────────┴─────────────────────┴───────┼─────────────────┼─────────────────┼─────┬─────┼─────────────────┼─────────────────┼───────┴─────────────────────┴─────────────────────┘
-//                                                             │                 │                 │     │     │                 │                 │
-//                                                             └─────────────────┴─────────────────┴─────┴─────┴─────────────────┴─────────────────┘
-[_BETA] = LAYOUT_split_3x5_3(
-      KC_X                 , MT(MOD_LGUI, KC_Q)  , KC_W  , MT(MOD_LCTL, KC_M) , CH_Z               ,                     CH_Z               , MT(MOD_LCTL, KC_M) , KC_W  , MT(MOD_LGUI, KC_Q)  , KC_X               ,
-      MT(MOD_LALT, CH_DLR) , MT(MOD_LSFT, CH_AE) , CH_OE , MT(MOD_LSFT, KC_F) , MT(MOD_LALT, KC_G) ,                     MT(MOD_LALT, KC_G) , MT(MOD_LSFT, KC_F) , CH_OE , MT(MOD_LSFT, CH_AE) , MT(MOD_LALT, CH_UE),
-      CH_UE                , MT(MOD_LCTL, CH_Y)  , KC_K  , MT(MOD_LGUI, KC_J) , KC_B               ,                     KC_B               , MT(MOD_LGUI, KC_J) , KC_K  , MT(MOD_LCTL, CH_Y)  , TO(_ALPHA)         ,
-                                                           _______            , _______            , _______ , _______ , _______            , _______
+//          ┌───────┬───────┬───────┬────────┬────────┐
+//          │ CH_Z  │ M_CTL │   w   │ Q_GUI  │   x    │
+//          ├───────┼───────┼───────┼────────┼────────┤
+//          │ G_ALT │ F_SFT │ CH_OE │ AE_SFT │ UE_ALT │
+//          ├───────┼───────┼───────┼────────┼────────┤
+//          │   b   │ J_GUI │   k   │ Y_CTL  │        │
+//    ┌─────┼───────┼───────┼───────┴────────┴────────┘
+//    │     │       │       │
+//    └─────┴───────┴───────┘
+[_BETA] = LAYOUT_mirror(
+            CH_Z    , M_CTL   , KC_W  , Q_GUI  , KC_X   ,
+            G_ALT   , F_SFT   , CH_OE , AE_SFT , UE_ALT ,
+            KC_B    , J_GUI   , KC_K  , Y_CTL  , _______,
+  _______ , _______ , _______
 ),
 
-//        ┌─────────┬───────────────┬───────────────┬───────────────┬─────────┐                     ┌───────────────┬───────────────┬─────────┬─────────┬────────────┐
-//        │ CH_QST  │     home      │    pAGE_UP    │     pgdn      │   end   │                     │    CH_LESS    │    CH_LPRN    │ CH_LCBR │ CH_LBRC │            │
-//        ├─────────┼───────────────┼───────────────┼───────────────┼─────────┤                     ├───────────────┼───────────────┼─────────┼─────────┼────────────┤
-//        │ CH_EXLM │     left      │      up       │     down      │  rght   │                     │     left      │     down      │   up    │  rght   │            │
-//        ├─────────┼───────────────┼───────────────┼───────────────┼─────────┤                     ├───────────────┼───────────────┼─────────┼─────────┼────────────┤
-//        │         │ OSM(MOD_LGUI) │ OSM(MOD_LALT) │ OSM(MOD_LCTL) │ CH_PERC │                     │    CH_MORE    │    CH_RPRN    │ CH_RCBR │ CH_RBRC │ TO(_ALPHA) │
-//        └─────────┴───────────────┴───────────────┼───────────────┼─────────┼─────┬───────────────┼───────────────┼───────────────┼─────────┴─────────┴────────────┘
-//                                                  │               │         │     │ OSM(MOD_LCTL) │ OSM(MOD_LSFT) │ OSM(MOD_LGUI) │
-//                                                  └───────────────┴─────────┴─────┴───────────────┴───────────────┴───────────────┘
-[_NAV] = LAYOUT_split_3x5_3(
-      CH_QST  , KC_HOME       , KC_PAGE_UP    , KC_PGDN       , KC_END   ,                           CH_LESS       , CH_LPRN       , CH_LCBR , CH_LBRC  , _______   ,
-      CH_EXLM , KC_LEFT       , KC_UP         , KC_DOWN       , KC_RIGHT ,                           KC_LEFT       , KC_DOWN       , KC_UP   , KC_RIGHT , _______   ,
-      _______ , OSM(MOD_LGUI) , OSM(MOD_LALT) , OSM(MOD_LCTL) , CH_PERC  ,                           CH_MORE       , CH_RPRN       , CH_RCBR , CH_RBRC  , TO(_ALPHA),
-                                                _______       , _______  , _______ , OSM(MOD_LCTL) , OSM(MOD_LSFT) , OSM(MOD_LGUI)
+//                    ┌───────────────┬───────────────┬─────────┬─────────┬────────────┐
+//                    │    CH_LESS    │    CH_LPRN    │ CH_LCBR │ CH_LBRC │            │
+//                    ├───────────────┼───────────────┼─────────┼─────────┼────────────┤
+//                    │     left      │     down      │   up    │  rght   │            │
+//                    ├───────────────┼───────────────┼─────────┼─────────┼────────────┤
+//                    │    CH_MORE    │    CH_RPRN    │ CH_RCBR │ CH_RBRC │ TO(_ALPHA) │
+//    ┌───────────────┼───────────────┼───────────────┼─────────┴─────────┴────────────┘
+//    │ OSM(MOD_LCTL) │ OSM(MOD_LSFT) │ OSM(MOD_LGUI) │
+//    └───────────────┴───────────────┴───────────────┘
+[_NAV] = LAYOUT_mirror(
+                  CH_LESS       , CH_LPRN       , CH_LCBR , CH_LBRC  , _______   ,
+                  KC_LEFT       , KC_DOWN       , KC_UP   , KC_RIGHT , _______   ,
+                  CH_MORE       , CH_RPRN       , CH_RCBR , CH_RBRC  , TO(_ALPHA),
+  OSM(MOD_LCTL) , OSM(MOD_LSFT) , OSM(MOD_LGUI)
 ),
 
-//        ┌─────┬───┬───┬─────┬─────┐           ┌─────────┬─────┬───┬───┬────────────┐
-//        │     │ 9 │ 8 │  7  │     │           │ CH_MINS │  7  │ 8 │ 9 │  CH_PLUS   │
-//        ├─────┼───┼───┼─────┼─────┤           ├─────────┼─────┼───┼───┼────────────┤
-//        │  0  │ 6 │ 5 │  4  │     │           │ CH_DOT  │  4  │ 5 │ 6 │     0      │
-//        ├─────┼───┼───┼─────┼─────┤           ├─────────┼─────┼───┼───┼────────────┤
-//        │     │ 3 │ 2 │  1  │     │           │ CH_COMM │  1  │ 2 │ 3 │ TO(_ALPHA) │
-//        └─────┴───┴───┼─────┼─────┼─────┬─────┼─────────┼─────┼───┴───┴────────────┘
-//                      │     │     │     │     │         │     │
-//                      └─────┴─────┴─────┴─────┴─────────┴─────┘
-[_NUM] = LAYOUT_split_3x5_3(
-      _______ , KC_9 , KC_8 , KC_7    , _______ ,                     CH_MINS , KC_7    , KC_8 , KC_9 , CH_PLUS   ,
-      KC_0    , KC_6 , KC_5 , KC_4    , _______ ,                     CH_DOT  , KC_4    , KC_5 , KC_6 , KC_0      ,
-      _______ , KC_3 , KC_2 , KC_1    , _______ ,                     CH_COMM , KC_1    , KC_2 , KC_3 , TO(_ALPHA),
-                              _______ , _______ , _______ , _______ , _______ , _______
+//                    ┌───────────────┬───────────────┬───┬───┬────────────┐
+//                    │    CH_MINS    │       7       │ 8 │ 9 │  CH_PLUS   │
+//                    ├───────────────┼───────────────┼───┼───┼────────────┤
+//                    │    CH_DOT     │       4       │ 5 │ 6 │     0      │
+//                    ├───────────────┼───────────────┼───┼───┼────────────┤
+//                    │    CH_COMM    │       1       │ 2 │ 3 │ TO(_ALPHA) │
+//    ┌───────────────┼───────────────┼───────────────┼───┴───┴────────────┘
+//    │ OSM(MOD_LCTL) │ OSM(MOD_LSFT) │ OSM(MOD_LGUI) │
+//    └───────────────┴───────────────┴───────────────┘
+[_NUM] = LAYOUT_mirror(
+                  CH_MINS       , KC_7          , KC_8 , KC_9 , CH_PLUS   ,
+                  CH_DOT        , KC_4          , KC_5 , KC_6 , KC_0      ,
+                  CH_COMM       , KC_1          , KC_2 , KC_3 , TO(_ALPHA),
+  OSM(MOD_LCTL) , OSM(MOD_LSFT) , OSM(MOD_LGUI)
 ),
 
-//        ┌─────────┬─────────┬─────────┬─────────┬─────────┐           ┌─────────┬─────┬─────┬─────────┬────────────┐
-//        │  CH_AT  │ CH_BSLS │    ,    │    .    │ CH_SLSH │           │ CH_SLSH │  .  │  ,  │ CH_BSLS │   CH_AT    │
-//        ├─────────┼─────────┼─────────┼─────────┼─────────┤           ├─────────┼─────┼─────┼─────────┼────────────┤
-//        │ CH_PAST │ CH_LCBR │ CH_LBRC │ CH_LPRN │ CH_LESS │           │         │     │     │         │            │
-//        ├─────────┼─────────┼─────────┼─────────┼─────────┤           ├─────────┼─────┼─────┼─────────┼────────────┤
-//        │         │ CH_RCBR │ CH_RBRC │ CH_RPRN │ CH_MORE │           │         │     │     │         │ TO(_ALPHA) │
-//        └─────────┴─────────┴─────────┼─────────┼─────────┼─────┬─────┼─────────┼─────┼─────┴─────────┴────────────┘
-//                                      │         │         │     │     │         │     │
-//                                      └─────────┴─────────┴─────┴─────┴─────────┴─────┘
-[_SYM] = LAYOUT_split_3x5_3(
-      CH_AT   , CH_BSLS , KC_COMMA , KC_DOT  , CH_SLSH ,                     CH_SLSH , KC_DOT  , KC_COMMA , CH_BSLS , CH_AT     ,
-      CH_PAST , CH_LCBR , CH_LBRC  , CH_LPRN , CH_LESS ,                     _______ , _______ , _______  , _______ , _______   ,
-      _______ , CH_RCBR , CH_RBRC  , CH_RPRN , CH_MORE ,                     _______ , _______ , _______  , _______ , TO(_ALPHA),
-                                     _______ , _______ , _______ , _______ , _______ , _______
+//          ┌─────────┬─────────────────────┬─────────┬─────────┬────────────┐
+//          │ CH_SLSH │       CH_DOT        │ CH_COMM │ CH_BSLS │   CH_AT    │
+//          ├─────────┼─────────────────────┼─────────┼─────────┼────────────┤
+//          │ CH_HASH │ QK_CAPS_WORD_TOGGLE │         │         │            │
+//          ├─────────┼─────────────────────┼─────────┼─────────┼────────────┤
+//          │         │                     │         │         │ TO(_ALPHA) │
+//    ┌─────┼─────────┼─────────────────────┼─────────┴─────────┴────────────┘
+//    │     │         │                     │
+//    └─────┴─────────┴─────────────────────┘
+[_SYM] = LAYOUT_mirror(
+            CH_SLSH , CH_DOT              , CH_COMM , CH_BSLS , CH_AT     ,
+            CH_HASH , QK_CAPS_WORD_TOGGLE , _______ , _______ , _______   ,
+            _______ , _______             , _______ , _______ , TO(_ALPHA),
+  _______ , _______ , _______
 ),
 
-//        ┌─────────┬─────────┬─────────┬─────────┬─────────┐           ┌─────────┬─────┬─────┬─────────┬────────────┐
-//        │  CH_AT  │ CH_BSLS │    ,    │    .    │ CH_SLSH │           │ CH_SLSH │  .  │  ,  │ CH_BSLS │   CH_AT    │
-//        ├─────────┼─────────┼─────────┼─────────┼─────────┤           ├─────────┼─────┼─────┼─────────┼────────────┤
-//        │ CH_PAST │ CH_LCBR │ CH_LBRC │ CH_LPRN │ CH_LESS │           │         │     │     │         │  QK_BOOT   │
-//        ├─────────┼─────────┼─────────┼─────────┼─────────┤           ├─────────┼─────┼─────┼─────────┼────────────┤
-//        │         │ CH_RCBR │ CH_RBRC │ CH_RPRN │ CH_MORE │           │         │     │     │         │ TO(_ALPHA) │
-//        └─────────┴─────────┴─────────┼─────────┼─────────┼─────┬─────┼─────────┼─────┼─────┴─────────┴────────────┘
-//                                      │         │         │     │     │         │     │
-//                                      └─────────┴─────────┴─────┴─────┴─────────┴─────┘
-[_SYM2] = LAYOUT_split_3x5_3(
-      CH_AT   , CH_BSLS , KC_COMMA , KC_DOT  , CH_SLSH ,                     CH_SLSH , KC_DOT  , KC_COMMA , CH_BSLS , CH_AT     ,
-      CH_PAST , CH_LCBR , CH_LBRC  , CH_LPRN , CH_LESS ,                     _______ , _______ , _______  , _______ , QK_BOOT   ,
-      _______ , CH_RCBR , CH_RBRC  , CH_RPRN , CH_MORE ,                     _______ , _______ , _______  , _______ , TO(_ALPHA),
-                                     _______ , _______ , _______ , _______ , _______ , _______
+//          ┌─────────┬────────┬─────────┬─────────┬────────────┐
+//          │ CH_SLSH │ CH_DOT │ CH_COMM │ CH_BSLS │   CH_AT    │
+//          ├─────────┼────────┼─────────┼─────────┼────────────┤
+//          │         │        │         │         │  QK_BOOT   │
+//          ├─────────┼────────┼─────────┼─────────┼────────────┤
+//          │         │        │         │         │ TO(_ALPHA) │
+//    ┌─────┼─────────┼────────┼─────────┴─────────┴────────────┘
+//    │     │         │        │
+//    └─────┴─────────┴────────┘
+[_SYM2] = LAYOUT_mirror(
+            CH_SLSH , CH_DOT  , CH_COMM , CH_BSLS , CH_AT     ,
+            _______ , _______ , _______ , _______ , QK_BOOT   ,
+            _______ , _______ , _______ , _______ , TO(_ALPHA),
+  _______ , _______ , _______
 )
 };
 
-
-
-const uint16_t PROGMEM combo0[] = { MT(MOD_LGUI, KC_O), KC_P, COMBO_END};
-const uint16_t PROGMEM combo1[] = { KC_X, MT(MOD_LGUI, KC_Q), COMBO_END};
-const uint16_t PROGMEM combo2[] = { CH_QST, KC_END, COMBO_END};
-const uint16_t PROGMEM combo3[] = { CH_BSLS, CH_AT, COMBO_END};
-const uint16_t PROGMEM combo4[] = { KC_9, CH_PLUS, COMBO_END};
-const uint16_t PROGMEM combo5[] = { MT(MOD_LCTL, KC_U),  KC_T, COMBO_END};
-const uint16_t PROGMEM combo6[] = { MT(MOD_LSFT, KC_F), CH_OE, COMBO_END};
+const uint16_t PROGMEM cBspcAlpha[] = { O_GUI, KC_P, COMBO_END};
+const uint16_t PROGMEM cBspcBeta[] = { KC_X, Q_GUI, COMBO_END};
+const uint16_t PROGMEM cBspcNav[] = { CH_QST, KC_END, COMBO_END};
+const uint16_t PROGMEM cBspcNum[] = { CH_BSLS, CH_AT, COMBO_END};
+const uint16_t PROGMEM cBspcSym[] = { KC_9, CH_PLUS, COMBO_END};
+const uint16_t PROGMEM cBspcSym2[] = { KC_9, CH_PLUS, COMBO_END};
+const uint16_t PROGMEM cEscAlpha[] = { U_CTL,  KC_T, COMBO_END};
+const uint16_t PROGMEM cEscBeta[] = { CH_Z,  KC_T, COMBO_END};
+const uint16_t PROGMEM cEscNav[] = { U_CTL,  KC_T, COMBO_END};
+const uint16_t PROGMEM cEscNum[] = { U_CTL,  KC_T, COMBO_END};
+const uint16_t PROGMEM cEscSym[] = { U_CTL,  KC_T, COMBO_END};
+const uint16_t PROGMEM cEscSym2[] = { U_CTL,  KC_T, COMBO_END};
+const uint16_t PROGMEM combo6[] = { F_SFT, CH_OE, COMBO_END};
 const uint16_t PROGMEM combo7[] = { CH_LBRC, CH_LPRN, COMBO_END};
-const uint16_t PROGMEM combo8[] = { MT(MOD_LSFT, KC_R), KC_E, COMBO_END};
-const uint16_t PROGMEM combo9[] = { MT(MOD_LSFT, KC_A), MT(MOD_LALT, KC_S), COMBO_END};
-const uint16_t PROGMEM combo10[] = { L_BETA, L_NAV, COMBO_END};
-const uint16_t PROGMEM combo11[] = {L_NUM, L_BETA, COMBO_END};
+const uint16_t PROGMEM combo8[] = { R_SFT, KC_E, COMBO_END};
+const uint16_t PROGMEM combo9[] = { A_SFT, S_ALT, COMBO_END};
+// const uint16_t PROGMEM combo10[] = { L_BETA, L_NAV, COMBO_END};
+// const uint16_t PROGMEM combo11[] = { L_NUM, L_BETA, COMBO_END};
 
 combo_t key_combos[] = {
-    COMBO(combo0, KC_BSPC),
-    COMBO(combo1, KC_BSPC),
-    COMBO(combo2, KC_BSPC),
-    COMBO(combo3, KC_BSPC),
-    COMBO(combo4, KC_BSPC),
-    COMBO(combo5, KC_ESCAPE),
+    COMBO(cBspcAlpha, KC_BSPC),
+    COMBO(cBspcBeta, KC_BSPC),
+    COMBO(cBspcNav, KC_BSPC),
+    COMBO(cBspcNum, KC_BSPC),
+    COMBO(cBspcSym, KC_BSPC),
+    COMBO(cBspcSym2, KC_BSPC),
+    COMBO(cEscAlpha, KC_ESCAPE),
+    COMBO(cEscBeta, KC_ESCAPE),
+    COMBO(cEscNav, KC_ESCAPE),
+    COMBO(cEscNum, KC_ESCAPE),
+    COMBO(cEscSym, KC_ESCAPE),
+    COMBO(cEscSym2, KC_ESCAPE),
     COMBO(combo6, KC_SPACE),
     COMBO(combo7, KC_SPACE),
     COMBO(combo8, KC_SPACE),
     // COMBO(combo9, ST_MACRO_AE),
     COMBO(combo9, KC_ENTER),
-    COMBO(combo10, OSM(_SYM)),
-    COMBO(combo11, OSM(_SYM2)),
+    // COMBO(combo10, OSM(_SYM)),
+    // COMBO(combo11, OSM(_SYM2)),
 };
+
+void keyboard_post_init_user(void) {
+  // Customise these values to desired behaviour
+  debug_enable=true;
+  // debug_matrix=true;
+  debug_keyboard=true;
+  //debug_mouse=true;
+}
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
@@ -222,14 +253,17 @@ layer_state_t layer_state_set_user(layer_state_t state) {
     // if(layer_state_is(_BETA) && layer_state_is(_NAV)) {
     //     state = state | ((layer_state_t)1 << _SYM);
     // }
-    // state = update_tri_layer_state(state,_BETA, _NAV, _NUM);
-    return state;
+    //
+    layer_state_t newstate = update_tri_layer_state(state,_BETA, _NAV, _SYM);
+    newstate = update_tri_layer_state(newstate,_BETA, _NUM, _SYM2);
+    printf("before 0x%01X, after 0x%01X\n", state, newstate);
+    return newstate;
 }
 
 const key_override_t delete_override = ko_make_basic(MOD_MASK_SHIFT, KC_BSPC, KC_DEL);
-// const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, CH_AE, ST_MACRO_AE);
-const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, MT(MOD_LSFT, CH_AE), KC_Z);
-const key_override_t ue_override = ko_make_basic(MOD_MASK_SHIFT, CH_UE, KC_X);
+const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, AE_SFT, ST_MACRO_AE);
+// const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, AE_SFT, KC_Z);
+const key_override_t ue_override = ko_make_basic(MOD_MASK_SHIFT, UE_ALT, KC_X);
 const key_override_t oe_override = ko_make_basic(MOD_MASK_SHIFT, CH_OE, KC_Y);
 const key_override_t **key_overrides = (const key_override_t *[]){
     &delete_override,
