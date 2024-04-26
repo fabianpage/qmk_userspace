@@ -120,17 +120,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ),
 
 //                    ┌───────────────┬───────────────┬─────────┬─────────┬────────────┐
-//                    │    CH_LESS    │    CH_LPRN    │ CH_LCBR │ CH_LBRC │            │
+//                    │    CH_LESS    │    CH_LPRN    │ CH_LCBR │ CH_LBRC │  CH_SLSH   │
 //                    ├───────────────┼───────────────┼─────────┼─────────┼────────────┤
-//                    │     left      │     down      │   up    │  rght   │            │
+//                    │     left      │     down      │   up    │  rght   │  CH_BSLS   │
 //                    ├───────────────┼───────────────┼─────────┼─────────┼────────────┤
 //                    │    CH_MORE    │    CH_RPRN    │ CH_RCBR │ CH_RBRC │ TO(_ALPHA) │
 //    ┌───────────────┼───────────────┼───────────────┼─────────┴─────────┴────────────┘
 //    │ OSM(MOD_LCTL) │ OSM(MOD_LSFT) │ OSM(MOD_LGUI) │
 //    └───────────────┴───────────────┴───────────────┘
 [_NAV] = LAYOUT_mirror(
-                  CH_LESS       , CH_LPRN       , CH_LCBR , CH_LBRC  , _______   ,
-                  KC_LEFT       , KC_DOWN       , KC_UP   , KC_RIGHT , _______   ,
+                  CH_LESS       , CH_LPRN       , CH_LCBR , CH_LBRC  , CH_SLSH   ,
+                  KC_LEFT       , KC_DOWN       , KC_UP   , KC_RIGHT , CH_BSLS   ,
                   CH_MORE       , CH_RPRN       , CH_RCBR , CH_RBRC  , TO(_ALPHA),
   OSM(MOD_LCTL) , OSM(MOD_LSFT) , OSM(MOD_LGUI)
 ),
@@ -186,7 +186,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 const uint16_t PROGMEM cBspcAlpha[] = { O_GUI, KC_P, COMBO_END};
 const uint16_t PROGMEM cBspcBeta[] = { KC_X, Q_GUI, COMBO_END};
-const uint16_t PROGMEM cBspcNav[] = { CH_QST, KC_END, COMBO_END};
+const uint16_t PROGMEM cBspcNav[] = { CH_LBRC, CH_SLSH, COMBO_END};
 const uint16_t PROGMEM cBspcNum[] = { CH_BSLS, CH_AT, COMBO_END};
 const uint16_t PROGMEM cBspcSym[] = { KC_9, CH_PLUS, COMBO_END};
 const uint16_t PROGMEM cBspcSym2[] = { KC_9, CH_PLUS, COMBO_END};
