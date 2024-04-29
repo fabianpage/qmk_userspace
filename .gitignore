@@ -11,3 +11,4 @@
 *.uf2
 
 .cache
+compile_commands.json
