@@ -64,6 +64,9 @@ enum layers {
 #define L_BETA OSL(_BETA)
 #define L_NAV TT(_NAV)
 
+#define S_(k) MT(MOD_LSFT, k)
+
+
 #define U_CTL MT(MOD_LCTL, KC_U)
 #define O_GUI MT(MOD_LGUI, KC_O)
 #define N_ALT MT(MOD_LALT, KC_N)
