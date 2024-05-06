@@ -14,6 +14,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+// #include <stdint.h>
 #include "action_layer.h"
 #include "keycodes.h"
 #include "modifiers.h"
@@ -87,40 +88,39 @@ enum layers {
 #define J_GUI MT(MOD_LGUI, KC_J)
 #define Y_CTL MT(MOD_LCTL, CH_Y)
 
-#define LAYOUT_mirror(k0,k1,k2,k3,k4, k5,k6,k7,k8,k9, k10,k11,k12,k13,k14, k15,k16,k17) LAYOUT_split_3x5_3(k4,G_(k3),k2,C_(k1),k0, k0,k1,k2,k3,k4, k9,k8,k7,k6,k5, k5,k6,k7,k8,k9, k14,k13,k12,k11,k10, k10,k11,k12,k13,k14, k17, k16, k15, k15, k16,k17)
-
-
+#define LAYOUT_mirror(k0,k1,k2,k3,k4, k5,k6,k7,k8,k9, k10,k11,k12,k13,k14, k15,k16,k17) LAYOUT_split_3x5_3(k4,G_(k3),k2,C_(k1),k0, k0,C_(k1),k2,G_(k3),k4, A_(k9),S_(k8),k7,S_(k6),A_(k5), k5,k6,k7,k8,k9, k14,k13,k12,k11,k10, k10,k11,k12,k13,k14, k17, k16, k15, k15, k16,k17)
+// #define LAYOUT_mirror(k0,k1,k2,k3,k4, k5,k6,k7,k8,k9, k10,k11,k12,k13,k14, k15,k16,k17) LAYOUT_split_3x5_3(k4,k3,k2,k1,k0, k0,k1,k2,k3,k4, k9,k8,k7,k6,k5, k5,k6,k7,k8,k9, k14,k13,k12,k11,k10, k10,k11,k12,k13,k14, k17, k16, k15, k15, k16,k17)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-//            ┌────────┬───────┬───┬───────┬───────┐
-//            │   t    │ U_CTL │ i │ O_GUI │   p   │
-//            ├────────┼───────┼───┼───────┼───────┤
-//            │ N_ALT  │ R_SFT │ e │ A_SFT │ S_ALT │
-//            ├────────┼───────┼───┼───────┼───────┤
-//            │   h    │ V_GUI │ c │ L_CTL │   d   │
-//    ┌───────┼────────┼───────┼───┴───────┴───────┘
+//            ┌────────┬───────┬───┬───────┬───┐
+//            │   t    │   u   │ i │   o   │ p │
+//            ├────────┼───────┼───┼───────┼───┤
+//            │   n    │   r   │ e │   a   │ s │
+//            ├────────┼───────┼───┼───────┼───┤
+//            │   h    │ V_GUI │ c │ L_CTL │ d │
+//    ┌───────┼────────┼───────┼───┴───────┴───┘
 //    │ L_NUM │ L_BETA │ L_NAV │
 //    └───────┴────────┴───────┘
 [_ALPHA] = LAYOUT_mirror(
-          KC_T   , U_CTL , KC_I , O_GUI , KC_P ,
-          N_ALT  , R_SFT , KC_E , A_SFT , S_ALT,
-          KC_H   , V_GUI , KC_C , L_CTL , KC_D ,
+          KC_T   , KC_U  , KC_I , KC_O  , KC_P,
+          KC_N   , KC_R  , KC_E , KC_A  , KC_S,
+          KC_H   , V_GUI , KC_C , L_CTL , KC_D,
   L_NUM , L_BETA , L_NAV
 ),
 
-//          ┌───────┬───────┬───────┬────────┬────────┐
-//          │ CH_Z  │ M_CTL │   w   │ Q_GUI  │   x    │
-//          ├───────┼───────┼───────┼────────┼────────┤
-//          │ G_ALT │ F_SFT │ CH_OE │ AE_SFT │ UE_ALT │
-//          ├───────┼───────┼───────┼────────┼────────┤
-//          │   b   │ J_GUI │   k   │ Y_CTL  │        │
-//    ┌─────┼───────┼───────┼───────┴────────┴────────┘
-//    │     │       │       │
-//    └─────┴───────┴───────┘
+//          ┌──────┬───────┬───────┬───────┬───────┐
+//          │ CH_Z │   m   │   w   │   q   │   x   │
+//          ├──────┼───────┼───────┼───────┼───────┤
+//          │  g   │   f   │ CH_OE │ CH_AE │ CH_UE │
+//          ├──────┼───────┼───────┼───────┼───────┤
+//          │  b   │ J_GUI │   k   │ Y_CTL │  tab  │
+//    ┌─────┼──────┼───────┼───────┴───────┴───────┘
+//    │     │      │       │
+//    └─────┴──────┴───────┘
 [_BETA] = LAYOUT_mirror(
-            CH_Z    , M_CTL   , KC_W  , Q_GUI  , KC_X   ,
-            G_ALT   , F_SFT   , CH_OE , AE_SFT , UE_ALT ,
-            KC_B    , J_GUI   , KC_K  , Y_CTL  , _______,
+            CH_Z    , KC_M    , KC_W  , KC_Q  , KC_X  ,
+            KC_G    , KC_F    , CH_OE , CH_AE , CH_UE ,
+            KC_B    , J_GUI   , KC_K  , Y_CTL , KC_TAB,
   _______ , _______ , _______
 ),
 
@@ -161,14 +161,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //          ├─────────┼─────────────────────┼─────────┼─────────┼────────────┤
 //          │ CH_HASH │ QK_CAPS_WORD_TOGGLE │ CH_DQUO │ CH_DEG  │   CH_DLR   │
 //          ├─────────┼─────────────────────┼─────────┼─────────┼────────────┤
-//          │ CH_QUOT │       CH_CIRC       │         │         │ TO(_ALPHA) │
+//          │ CH_QUOT │       CH_CIRC       │ CH_PERC │         │ TO(_ALPHA) │
 //    ┌─────┼─────────┼─────────────────────┼─────────┴─────────┴────────────┘
 //    │     │         │                     │
 //    └─────┴─────────┴─────────────────────┘
 [_SYM] = LAYOUT_mirror(
             CH_SLSH , CH_DOT              , CH_COMM , CH_BSLS , CH_AT     ,
             CH_HASH , QK_CAPS_WORD_TOGGLE , CH_DQUO , CH_DEG  , CH_DLR    ,
-            CH_QUOT , CH_CIRC             , _______ , _______ , TO(_ALPHA),
+            CH_QUOT , CH_CIRC             , CH_PERC , _______ , TO(_ALPHA),
   _______ , _______ , _______
 ),
 
@@ -239,16 +239,50 @@ void keyboard_post_init_user(void) {
 }
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+    uint8_t mod_state;
+        mod_state = get_mods();
   switch (keycode) {
     case ST_MACRO_0:
     if (record->event.pressed) {
       SEND_STRING(SS_TAP(X_S) SS_DELAY(100) SS_TAP(X_C) SS_DELAY(100) SS_TAP(X_H));
     }
+    break;
     case ST_MACRO_AE:
     if (record->event.pressed) {
       SEND_STRING(SS_TAP(X_CAPS) SS_DELAY(100) SS_TAP(X_A) SS_DELAY(100) SS_TAP(X_QUOTE) SS_DELAY(100) SS_TAP(X_CAPS));
     }
     break;
+    case CH_AE:
+        {
+        // Initialize a boolean variable that keeps track
+        // of the delete key status: registered or not?
+        static bool ae_registered;
+        if (record->event.pressed) {
+            // Detect the activation of either shift keys
+            if (mod_state & MOD_MASK_SHIFT) {
+                // First temporarily canceling both shifts so that
+                // shift isn't applied to the KC_DEL keycode
+                del_mods(MOD_MASK_SHIFT);
+                SEND_STRING(SS_TAP(X_CAPS) SS_DELAY(100) SS_TAP(X_A) SS_DELAY(100) SS_TAP(X_QUOTE) SS_DELAY(100) SS_TAP(X_CAPS));
+                // register_code(KC_DEL);
+                // Update the boolean variable to reflect the status of KC_DEL
+                ae_registered = true;
+                // Reapplying modifier state so that the held shift key(s)
+                // still work even after having tapped the Backspace/Delete key.
+                set_mods(mod_state);
+                return false;
+            }
+        } else { // on release of KC_BSPC
+            // In case KC_DEL is still being sent even after the release of KC_BSPC
+            if (ae_registered) {
+                unregister_code(KC_DEL);
+                ae_registered = false;
+                return false;
+            }
+        }
+        // Let QMK process the KC_BSPC keycode as usual outside of shift
+        return true;
+    }
   }
   return true;
 }
@@ -270,10 +304,12 @@ const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, AE_SFT, ST_MACR
 // const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, AE_SFT, KC_Z);
 const key_override_t ue_override = ko_make_basic(MOD_MASK_SHIFT, UE_ALT, KC_X);
 const key_override_t oe_override = ko_make_basic(MOD_MASK_SHIFT, CH_OE, KC_Y);
+const key_override_t perc_override = ko_make_basic(MOD_MASK_SHIFT,CH_PERC, CH_CIRC);
 const key_override_t **key_overrides = (const key_override_t *[]){
     &delete_override,
     &ae_override,
     &ue_override,
     &oe_override,
+    &perc_override,
     NULL // Null terminate the array of overrides!
 };
