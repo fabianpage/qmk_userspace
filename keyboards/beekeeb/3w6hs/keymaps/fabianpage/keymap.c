@@ -87,7 +87,7 @@ enum layers {
 #define J_GUI MT(MOD_LGUI, KC_J)
 #define Y_CTL MT(MOD_LCTL, CH_Y)
 
-#define LAYOUT_mirror(k0,k1,k2,k3,k4, k5,k6,k7,k8,k9, k10,k11,k12,k13,k14, k15,k16,k17) LAYOUT_split_3x5_3(k4,k3,k2,k1,k0, k0,k1,k2,k3,k4, k9,k8,k7,k6,k5, k5,k6,k7,k8,k9, k14,k13,k12,k11,k10, k10,k11,k12,k13,k14, k17, k16, k15, k15, k16,k17)
+#define LAYOUT_mirror(k0,k1,k2,k3,k4, k5,k6,k7,k8,k9, k10,k11,k12,k13,k14, k15,k16,k17) LAYOUT_split_3x5_3(k4,G_(k3),k2,C_(k1),k0, k0,k1,k2,k3,k4, k9,k8,k7,k6,k5, k5,k6,k7,k8,k9, k14,k13,k12,k11,k10, k10,k11,k12,k13,k14, k17, k16, k15, k15, k16,k17)
 
 
 
