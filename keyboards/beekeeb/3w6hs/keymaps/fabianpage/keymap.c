@@ -15,10 +15,11 @@
  */
 
 // #include <stdint.h>
+#include QMK_KEYBOARD_H
+#include "g/keymap_combo.h"
 #include "action_layer.h"
 #include "keycodes.h"
 #include "modifiers.h"
-#include QMK_KEYBOARD_H
 #include "keymap_swiss_de.h"
 #include "print.h"
 
@@ -208,7 +209,7 @@ const uint16_t PROGMEM combo9[] = { A_SFT, S_ALT, COMBO_END};
 // const uint16_t PROGMEM combo10[] = { L_BETA, L_NAV, COMBO_END};
 // const uint16_t PROGMEM combo11[] = { L_NUM, L_BETA, COMBO_END};
 
-combo_t key_combos[] = {
+combo_t key_combos_del[] = {
     COMBO(cBspcAlpha, KC_BSPC),
     COMBO(cBspcBeta, KC_BSPC),
     COMBO(cBspcNav, KC_BSPC),
