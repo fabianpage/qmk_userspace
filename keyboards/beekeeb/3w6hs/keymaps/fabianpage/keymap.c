@@ -88,39 +88,39 @@ enum layers {
 #define J_GUI MT(MOD_LGUI, KC_J)
 #define Y_CTL MT(MOD_LCTL, CH_Y)
 
-#define LAYOUT_mirror(k0,k1,k2,k3,k4, k5,k6,k7,k8,k9, k10,k11,k12,k13,k14, k15,k16,k17) LAYOUT_split_3x5_3(k4,G_(k3),k2,C_(k1),k0, k0,C_(k1),k2,G_(k3),k4, A_(k9),S_(k8),k7,S_(k6),A_(k5), k5,k6,k7,k8,k9, k14,k13,k12,k11,k10, k10,k11,k12,k13,k14, k17, k16, k15, k15, k16,k17)
+#define LAYOUT_mirror(k0,k1,k2,k3,k4, k5,k6,k7,k8,k9, k10,k11,k12,k13,k14, k15,k16,k17) LAYOUT_split_3x5_3(k4,G_(k3),k2,C_(k1),k0, k0,C_(k1),k2,G_(k3),k4, A_(k9),S_(k8),k7,S_(k6),A_(k5), A_(k5),S_(k6),k7,S_(k8),A_(k9), k14,C_(k13),k12,G_(k11),k10, k10,G_(k11),k12,C_(k13),k14, k17, k16, k15, k15, k16,k17)
 // #define LAYOUT_mirror(k0,k1,k2,k3,k4, k5,k6,k7,k8,k9, k10,k11,k12,k13,k14, k15,k16,k17) LAYOUT_split_3x5_3(k4,k3,k2,k1,k0, k0,k1,k2,k3,k4, k9,k8,k7,k6,k5, k5,k6,k7,k8,k9, k14,k13,k12,k11,k10, k10,k11,k12,k13,k14, k17, k16, k15, k15, k16,k17)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-//            ┌────────┬───────┬───┬───────┬───┐
-//            │   t    │   u   │ i │   o   │ p │
-//            ├────────┼───────┼───┼───────┼───┤
-//            │   n    │   r   │ e │   a   │ s │
-//            ├────────┼───────┼───┼───────┼───┤
-//            │   h    │ V_GUI │ c │ L_CTL │ d │
-//    ┌───────┼────────┼───────┼───┴───────┴───┘
+//            ┌────────┬───────┬───┬───┬───┐
+//            │   t    │   u   │ i │ o │ p │
+//            ├────────┼───────┼───┼───┼───┤
+//            │   n    │   r   │ e │ a │ s │
+//            ├────────┼───────┼───┼───┼───┤
+//            │   h    │   v   │ c │ l │ d │
+//    ┌───────┼────────┼───────┼───┴───┴───┘
 //    │ L_NUM │ L_BETA │ L_NAV │
 //    └───────┴────────┴───────┘
 [_ALPHA] = LAYOUT_mirror(
-          KC_T   , KC_U  , KC_I , KC_O  , KC_P,
-          KC_N   , KC_R  , KC_E , KC_A  , KC_S,
-          KC_H   , V_GUI , KC_C , L_CTL , KC_D,
+          KC_T   , KC_U  , KC_I , KC_O , KC_P,
+          KC_N   , KC_R  , KC_E , KC_A , KC_S,
+          KC_H   , KC_V  , KC_C , KC_L , KC_D,
   L_NUM , L_BETA , L_NAV
 ),
 
-//          ┌──────┬───────┬───────┬───────┬───────┐
-//          │ CH_Z │   m   │   w   │   q   │   x   │
-//          ├──────┼───────┼───────┼───────┼───────┤
-//          │  g   │   f   │ CH_OE │ CH_AE │ CH_UE │
-//          ├──────┼───────┼───────┼───────┼───────┤
-//          │  b   │ J_GUI │   k   │ Y_CTL │  tab  │
-//    ┌─────┼──────┼───────┼───────┴───────┴───────┘
-//    │     │      │       │
-//    └─────┴──────┴───────┘
+//          ┌──────┬─────┬───────┬───────┬───────┐
+//          │ CH_Z │  m  │   w   │   q   │   x   │
+//          ├──────┼─────┼───────┼───────┼───────┤
+//          │  g   │  f  │ CH_OE │ CH_AE │ CH_UE │
+//          ├──────┼─────┼───────┼───────┼───────┤
+//          │  b   │  j  │   k   │ CH_Y  │  tab  │
+//    ┌─────┼──────┼─────┼───────┴───────┴───────┘
+//    │     │      │     │
+//    └─────┴──────┴─────┘
 [_BETA] = LAYOUT_mirror(
             CH_Z    , KC_M    , KC_W  , KC_Q  , KC_X  ,
             KC_G    , KC_F    , CH_OE , CH_AE , CH_UE ,
-            KC_B    , J_GUI   , KC_K  , Y_CTL , KC_TAB,
+            KC_B    , KC_J    , KC_K  , CH_Y  , KC_TAB,
   _______ , _______ , _______
 ),
 
