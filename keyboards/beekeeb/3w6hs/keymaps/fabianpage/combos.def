@@ -1,6 +1,10 @@
 
-COMB(ESC,     KC_ESC,  KC_T,              MT(MOD_LCTL, KC_U))
+COMB(ESC,     KC_ESC,  KC_I,              MT(MOD_LCTL, KC_U))
 COMB(BSPC,    KC_BSPC, KC_P,              MT(MOD_LGUI, KC_O))
 COMB(TO_ALPHA,TO(0),   MT(MOD_LALT, KC_N),MT(MOD_LSFT, KC_R))
 COMB(SPC,     KC_SPACE,KC_E,              MT(MOD_LSFT, KC_R))
 COMB(ENTER,   KC_ENTER,MT(MOD_LALT, KC_S),MT(MOD_LSFT, KC_A))
+COMB(REP,     KC_ESC,  KC_I,              MT(MOD_LCTL, KC_U))
+COMB(AREP,    KC_BSPC, KC_P,              MT(MOD_LGUI, KC_O))
+
+COMB(BOOT,QK_BOOT,   MT(MOD_LSFT, KC_R), KC_E,MT(MOD_LSFT, KC_A),MT(MOD_LALT, KC_S))
