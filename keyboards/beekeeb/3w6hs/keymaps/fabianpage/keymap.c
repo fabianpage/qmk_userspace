@@ -44,7 +44,7 @@
 // #define CH_RBRC ALGR(KC_RBRC)
 // #define CH_RPRN S(KC_9)
 #define CH_MORE S(KC_NUBS)
-#define CH_DQUT S(KC_2)
+#define CH_DQUT S(CH_2)
 // #define CH_PLUS S(KC_1)
 
 enum custom_keycodes {
@@ -243,7 +243,14 @@ void keyboard_post_init_user(void) {
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     uint8_t mod_state;
         mod_state = get_mods();
+        uprintf("KL: kc: 0x%04X, col: %2u, row: %2u, pressed: %u, time: %5u, int: %u, count: %u\n", keycode, record->event.key.col, record->event.key.row, record->event.pressed, record->event.time, record->tap.interrupted, record->tap.count);
   switch (keycode) {
+                case LCTL_T(CH_DQUT):
+            if (record->tap.count && record->event.pressed) {
+                tap_code16(CH_DQUT); // Send KC_DQUO on tap
+                return false;        // Return false to ignore further processing of key
+            }
+            break;
     case ST_MACRO_0:
     if (record->event.pressed) {
       SEND_STRING(SS_TAP(X_S) SS_DELAY(100) SS_TAP(X_C) SS_DELAY(100) SS_TAP(X_H));
@@ -302,16 +309,17 @@ layer_state_t layer_state_set_user(layer_state_t state) {
 }
 
 const key_override_t delete_override = ko_make_basic(MOD_MASK_SHIFT, KC_BSPC, KC_DEL);
-const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, AE_SFT, ST_MACRO_AE);
+// const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, AE_SFT, ST_MACRO_AE);
 // const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, AE_SFT, KC_Z);
-const key_override_t ue_override = ko_make_basic(MOD_MASK_SHIFT, UE_ALT, KC_X);
-const key_override_t oe_override = ko_make_basic(MOD_MASK_SHIFT, CH_OE, KC_Y);
-const key_override_t perc_override = ko_make_basic(MOD_MASK_SHIFT,CH_PERC, CH_CIRC);
+// const key_override_t ue_override = ko_make_basic(MOD_MASK_SHIFT, UE_ALT, KC_X);
+// const key_override_t oe_override = ko_make_basic(MOD_MASK_SHIFT, CH_OE, KC_Y);
+// const key_override_t perc_override = ko_make_basic(MOD_MASK_SHIFT,CH_PERC, CH_CIRC);
+const key_override_t s2_override = ko_make_basic(MOD_MASK_SHIFT,CH_PERC, CH_CIRC);
 const key_override_t **key_overrides = (const key_override_t *[]){
     &delete_override,
-    &ae_override,
-    &ue_override,
-    &oe_override,
-    &perc_override,
+    // &ae_override,
+    // &ue_override,
+    // &oe_override,
+    // &perc_override,
     NULL // Null terminate the array of overrides!
 };
