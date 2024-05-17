@@ -297,29 +297,29 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 }
 
 
-layer_state_t layer_state_set_user(layer_state_t state) {
-    // if(layer_state_is(_BETA) && layer_state_is(_NAV)) {
-    //     state = state | ((layer_state_t)1 << _SYM);
-    // }
-    //
-    layer_state_t newstate = update_tri_layer_state(state,_BETA, _NAV, _SYM);
-    newstate = update_tri_layer_state(newstate,_BETA, _NUM, _SYM2);
-    printf("before 0x%01X, after 0x%01X\n", state, newstate);
-    return newstate;
-}
+//layer_state_t layer_state_set_user(layer_state_t state) {
+//    // if(layer_state_is(_BETA) && layer_state_is(_NAV)) {
+//    //     state = state | ((layer_state_t)1 << _SYM);
+//    // }
+//    //
+//    layer_state_t newstate = update_tri_layer_state(state,_BETA, _NAV, _SYM);
+//    newstate = update_tri_layer_state(newstate,_BETA, _NUM, _SYM2);
+//    printf("before 0x%01X, after 0x%01X\n", state, newstate);
+//    return newstate;
+//}
 
-const key_override_t delete_override = ko_make_basic(MOD_MASK_SHIFT, KC_BSPC, KC_DEL);
+// const key_override_t delete_override = ko_make_basic(MOD_MASK_SHIFT, KC_BSPC, KC_DEL);
 // const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, AE_SFT, ST_MACRO_AE);
 // const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, AE_SFT, KC_Z);
 // const key_override_t ue_override = ko_make_basic(MOD_MASK_SHIFT, UE_ALT, KC_X);
 // const key_override_t oe_override = ko_make_basic(MOD_MASK_SHIFT, CH_OE, KC_Y);
-// const key_override_t perc_override = ko_make_basic(MOD_MASK_SHIFT,CH_PERC, CH_CIRC);
-const key_override_t s2_override = ko_make_basic(MOD_MASK_SHIFT,CH_PERC, CH_CIRC);
+const key_override_t perc_override = ko_make_basic(MOD_MASK_SHIFT,CH_PERC, CH_CIRC);
+// const key_override_t s2_override = ko_make_basic(MOD_MASK_SHIFT,CH_PERC, CH_CIRC);
 const key_override_t **key_overrides = (const key_override_t *[]){
-    &delete_override,
+    // &delete_override,
     // &ae_override,
     // &ue_override,
     // &oe_override,
-    // &perc_override,
+    &perc_override,
     NULL // Null terminate the array of overrides!
 };
