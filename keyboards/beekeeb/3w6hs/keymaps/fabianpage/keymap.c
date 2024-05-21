@@ -63,7 +63,7 @@ enum layers {
     _SYM2,
 };
 
-#define L_NUM TT(_NUM)
+// #define L_NUM TT(_NUM)
 #define L_BETA OSL(_BETA)
 #define L_NAV TT(_NAV)
 
@@ -94,20 +94,20 @@ enum layers {
 // #define LAYOUT_mirror(k0,k1,k2,k3,k4, k5,k6,k7,k8,k9, k10,k11,k12,k13,k14, k15,k16,k17) LAYOUT_split_3x5_3(k4,k3,k2,k1,k0, k0,k1,k2,k3,k4, k9,k8,k7,k6,k5, k5,k6,k7,k8,k9, k14,k13,k12,k11,k10, k10,k11,k12,k13,k14, k17, k16, k15, k15, k16,k17)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-//            ┌────────┬───────┬───┬───┬───┐
-//            │   t    │   u   │ i │ o │ p │
-//            ├────────┼───────┼───┼───┼───┤
-//            │   n    │   r   │ e │ a │ s │
-//            ├────────┼───────┼───┼───┼───┤
-//            │   h    │   v   │ c │ l │ d │
-//    ┌───────┼────────┼───────┼───┴───┴───┘
-//    │ L_NUM │ L_BETA │ L_NAV │
-//    └───────┴────────┴───────┘
+//             ┌───────────────┬───────┬───┬───┬───┐
+//             │       t       │   u   │ i │ o │ p │
+//             ├───────────────┼───────┼───┼───┼───┤
+//             │       n       │   r   │ e │ a │ s │
+//             ├───────────────┼───────┼───┼───┼───┤
+//             │       h       │   v   │ c │ l │ d │
+//    ┌────────┼───────────────┼───────┼───┴───┴───┘
+//    │ L_BETA │ OSM(MOD_LSFT) │ L_NAV │
+//    └────────┴───────────────┴───────┘
 [_ALPHA] = LAYOUT_mirror(
-          KC_T   , KC_U  , KC_I , KC_O , KC_P,
-          KC_N   , KC_R  , KC_E , KC_A , KC_S,
-          KC_H   , KC_V  , KC_C , KC_L , KC_D,
-  L_NUM , L_BETA , L_NAV
+           KC_T          , KC_U  , KC_I , KC_O , KC_P,
+           KC_N          , KC_R  , KC_E , KC_A , KC_S,
+           KC_H          , KC_V  , KC_C , KC_L , KC_D,
+  L_BETA , OSM(MOD_LSFT) , L_NAV
 ),
 
 //          ┌──────┬─────┬───────┬───────┬───────┐
@@ -127,18 +127,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ),
 
 //                    ┌───────────────┬───────────────┬─────────┬─────────┬─────────┐
-//                    │    CH_LESS    │    CH_LPRN    │ CH_LCBR │ CH_LBRC │ CH_SLSH │
+//                    │    CH_DOT     │    CH_COLN    │ CH_COMM │ CH_SCLN │ CH_CIRC │
 //                    ├───────────────┼───────────────┼─────────┼─────────┼─────────┤
-//                    │     left      │     down      │   up    │  rght   │ CH_BSLS │
+//                    │     left      │     down      │   up    │  rght   │  CH_AT  │
 //                    ├───────────────┼───────────────┼─────────┼─────────┼─────────┤
-//                    │    CH_MORE    │    CH_RPRN    │ CH_RCBR │ CH_RBRC │  CH_AT  │
+//                    │    CH_ASTR    │    CH_PERC    │ CH_DLR  │ CH_BSLS │ CH_SLSH │
 //    ┌───────────────┼───────────────┼───────────────┼─────────┴─────────┴─────────┘
 //    │ OSM(MOD_LCTL) │ OSM(MOD_LSFT) │ OSM(MOD_LGUI) │
 //    └───────────────┴───────────────┴───────────────┘
 [_NAV] = LAYOUT_mirror(
-                  CH_LESS       , CH_LPRN       , CH_LCBR , CH_LBRC  , CH_SLSH,
-                  KC_LEFT       , KC_DOWN       , KC_UP   , KC_RIGHT , CH_BSLS,
-                  CH_MORE       , CH_RPRN       , CH_RCBR , CH_RBRC  , CH_AT  ,
+                  CH_DOT        , CH_COLN       , CH_COMM , CH_SCLN  , CH_CIRC,
+                  KC_LEFT       , KC_DOWN       , KC_UP   , KC_RIGHT , CH_AT  ,
+                  CH_ASTR       , CH_PERC       , CH_DLR  , CH_BSLS  , CH_SLSH,
   OSM(MOD_LCTL) , OSM(MOD_LSFT) , OSM(MOD_LGUI)
 ),
 
