@@ -313,13 +313,33 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 // const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, AE_SFT, KC_Z);
 // const key_override_t ue_override = ko_make_basic(MOD_MASK_SHIFT, UE_ALT, KC_X);
 // const key_override_t oe_override = ko_make_basic(MOD_MASK_SHIFT, CH_OE, KC_Y);
-const key_override_t perc_override = ko_make_basic(MOD_MASK_SHIFT,CH_PERC, CH_CIRC);
+// const key_override_t perc_override = ko_make_basic(MOD_MASK_SHIFT,CH_PERC, CH_CIRC);
 // const key_override_t s2_override = ko_make_basic(MOD_MASK_SHIFT,CH_PERC, CH_CIRC);
+const key_override_t f1override = ko_make_basic(MOD_MASK_SHIFT, KC_1, KC_F1);
+const key_override_t f2override = ko_make_basic(MOD_MASK_SHIFT, KC_2, KC_F2);
+const key_override_t f3override = ko_make_basic(MOD_MASK_SHIFT, KC_3, KC_F3);
+const key_override_t f4override = ko_make_basic(MOD_MASK_SHIFT, KC_4, KC_F4);
+const key_override_t f5override = ko_make_basic(MOD_MASK_SHIFT, KC_5, KC_F5);
+const key_override_t f6override = ko_make_basic(MOD_MASK_SHIFT, KC_6, KC_F6);
+const key_override_t f7override = ko_make_basic(MOD_MASK_SHIFT, KC_7, KC_F7);
+const key_override_t f8override = ko_make_basic(MOD_MASK_SHIFT, KC_8, KC_F8);
+const key_override_t f9override = ko_make_basic(MOD_MASK_SHIFT, KC_9, KC_F9);
+const key_override_t f10override = ko_make_basic(MOD_MASK_SHIFT, KC_0, KC_F10);
 const key_override_t **key_overrides = (const key_override_t *[]){
     // &delete_override,
     // &ae_override,
     // &ue_override,
     // &oe_override,
-    &perc_override,
+    // &perc_override,
+    &f1override,
+    &f2override,
+    &f3override,
+    &f4override,
+    &f5override,
+    &f6override,
+    &f7override,
+    &f8override,
+    &f9override,
+    &f10override,
     NULL // Null terminate the array of overrides!
 };
