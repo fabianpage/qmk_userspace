@@ -65,7 +65,7 @@ enum layers {
 
 // #define L_NUM TT(_NUM)
 #define L_BETA OSL(_BETA)
-#define L_NAV TT(_NAV)
+#define L_NAV OSL(_NAV)
 
 #define S_(k) MT(MOD_LSFT, k)
 #define A_(k) MT(MOD_LALT, k)
@@ -126,20 +126,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   _______ , _______ , _______
 ),
 
-//                    ┌───────────────┬───────────────┬─────────┬─────────┬─────────┐
-//                    │    CH_DOT     │    CH_COLN    │ CH_COMM │ CH_SCLN │ CH_CIRC │
-//                    ├───────────────┼───────────────┼─────────┼─────────┼─────────┤
-//                    │     left      │     down      │   up    │  rght   │  CH_AT  │
-//                    ├───────────────┼───────────────┼─────────┼─────────┼─────────┤
-//                    │    CH_ASTR    │    CH_PERC    │ CH_DLR  │ CH_BSLS │ CH_SLSH │
-//    ┌───────────────┼───────────────┼───────────────┼─────────┴─────────┴─────────┘
-//    │ OSM(MOD_LCTL) │ OSM(MOD_LSFT) │ OSM(MOD_LGUI) │
-//    └───────────────┴───────────────┴───────────────┘
+//          ┌─────────┬─────────┬─────────┬─────────┬─────────┐
+//          │ CH_DOT  │ CH_COLN │ CH_COMM │ CH_SCLN │ CH_CIRC │
+//          ├─────────┼─────────┼─────────┼─────────┼─────────┤
+//          │  left   │  down   │   up    │  rght   │  CH_AT  │
+//          ├─────────┼─────────┼─────────┼─────────┼─────────┤
+//          │ CH_ASTR │ CH_PERC │ CH_DLR  │ CH_BSLS │ CH_SLSH │
+//    ┌─────┼─────────┼─────────┼─────────┴─────────┴─────────┘
+//    │     │         │         │
+//    └─────┴─────────┴─────────┘
 [_NAV] = LAYOUT_mirror(
-                  CH_DOT        , CH_COLN       , CH_COMM , CH_SCLN  , CH_CIRC,
-                  KC_LEFT       , KC_DOWN       , KC_UP   , KC_RIGHT , CH_AT  ,
-                  CH_ASTR       , CH_PERC       , CH_DLR  , CH_BSLS  , CH_SLSH,
-  OSM(MOD_LCTL) , OSM(MOD_LSFT) , OSM(MOD_LGUI)
+            CH_DOT  , CH_COLN , CH_COMM , CH_SCLN  , CH_CIRC,
+            KC_LEFT , KC_DOWN , KC_UP   , KC_RIGHT , CH_AT  ,
+            CH_ASTR , CH_PERC , CH_DLR  , CH_BSLS  , CH_SLSH,
+  _______ , _______ , _______
 ),
 
 //          ┌─────────┬─────┬───┬───┬─────────┐
