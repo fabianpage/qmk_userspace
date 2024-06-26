@@ -1,6 +1,7 @@
 {
     "userspace_version": "1.0",
     "build_targets": [
-        ["beekeeb/3w6hs", "fabianpage"]
+        ["beekeeb/3w6hs", "fabianpage"],
+        ["ploopyco/madromys", "fabianpage"]
     ]
 }
