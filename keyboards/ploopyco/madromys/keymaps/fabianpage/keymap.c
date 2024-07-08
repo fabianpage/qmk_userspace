@@ -15,6 +15,8 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+#include <stdlib.h>
+#include "madromys.h"
 #include QMK_KEYBOARD_H
 #include "g/keymap_combo.h"
 
@@ -23,7 +25,7 @@ enum custom_keycodes {
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    [0] = LAYOUT( KC_BTN4, QK_BOOT, DRAG_SCROLL, CURSOR_SCROLL, KC_BTN1, KC_BTN2 )
+    [0] = LAYOUT( KC_BTN4, DPI_CONFIG, DRAG_SCROLL, CURSOR_SCROLL, KC_BTN1, KC_BTN2 )
 };
 
 bool set_cursor_scrolling = false;
@@ -37,6 +39,8 @@ bool set_cursor_scrolling = false;
 int cursor_accumulated_x = 0;
 int cursor_accumulated_y = 0;
 
+const int CURSOR_TICKS = 128;
+
 
 report_mouse_t pointing_device_task_user(report_mouse_t mouse_report) {
     if (set_cursor_scrolling) {
@@ -48,8 +52,11 @@ report_mouse_t pointing_device_task_user(report_mouse_t mouse_report) {
         // Calculate and accumulate scroll values based on mouse movement and divisors
         // cursor_accumulated_h += (float)mouse_report.x / CURSOR_DIVISOR_H;
         // cursor_accumulated_v += (float)mouse_report.y / CURSOR_DIVISOR_V;
-        cursor_accumulated_x += mouse_report.x;
-        cursor_accumulated_y += mouse_report.y;
+        if(abs(mouse_report.x) > abs(mouse_report.y)) {
+            cursor_accumulated_x += mouse_report.x;
+        } else {
+            cursor_accumulated_y += mouse_report.y;
+        }
 
         // int signX = cursor_accumulated_x > 0 ? 1 : -1;
 
@@ -60,14 +67,24 @@ report_mouse_t pointing_device_task_user(report_mouse_t mouse_report) {
         //     else
         //         SEND_STRING(SS_TAP(X_RIGHT));
         // }
-        while(cursor_accumulated_x >= 128) {
-            cursor_accumulated_x -= 128;
+        while(cursor_accumulated_x >= CURSOR_TICKS) {
+            cursor_accumulated_x -= CURSOR_TICKS;
+            SEND_STRING(SS_TAP(X_RIGHT));
+        }
+
+        while(cursor_accumulated_x <= -CURSOR_TICKS) {
+            cursor_accumulated_x += CURSOR_TICKS;
             SEND_STRING(SS_TAP(X_LEFT));
         }
 
-        while(cursor_accumulated_x <= -128) {
-            cursor_accumulated_x += 128;
-            SEND_STRING(SS_TAP(X_RIGHT));
+        while(cursor_accumulated_y >= CURSOR_TICKS) {
+            cursor_accumulated_y -= CURSOR_TICKS;
+            SEND_STRING(SS_TAP(X_DOWN));
+        }
+
+        while(cursor_accumulated_y <= -CURSOR_TICKS) {
+            cursor_accumulated_y += CURSOR_TICKS;
+            SEND_STRING(SS_TAP(X_UP));
         }
 
         // Assign integer parts of accumulated scroll values to the mouse report
