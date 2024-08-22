@@ -308,7 +308,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 //    return newstate;
 //}
 
-// const key_override_t delete_override = ko_make_basic(MOD_MASK_SHIFT, KC_BSPC, KC_DEL);
+const key_override_t delete_override = ko_make_basic(MOD_MASK_SHIFT, KC_BSPC, KC_DEL);
 // const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, AE_SFT, ST_MACRO_AE);
 // const key_override_t ae_override = ko_make_basic(MOD_MASK_SHIFT, AE_SFT, KC_Z);
 // const key_override_t ue_override = ko_make_basic(MOD_MASK_SHIFT, UE_ALT, KC_X);
@@ -326,7 +326,7 @@ const key_override_t f8override = ko_make_basic(MOD_MASK_SHIFT, KC_8, KC_F8);
 const key_override_t f9override = ko_make_basic(MOD_MASK_SHIFT, KC_9, KC_F9);
 const key_override_t f10override = ko_make_basic(MOD_MASK_SHIFT, KC_0, KC_F10);
 const key_override_t **key_overrides = (const key_override_t *[]){
-    // &delete_override,
+    &delete_override,
     // &ae_override,
     // &ue_override,
     // &oe_override,
