@@ -1,4 +1,5 @@
 #include "keymap_swiss_de.h"
+#include "./keycodes_fabian.h"
 #define CH_Z KC_Y
 #define CH_DLR KC_NUHS // $
 #define CH_AE CH_ADIA
@@ -6,6 +7,7 @@
 #define CH_UE CH_UDIA
 #define CH_Y KC_Z
 #define CH_QST S(KC_MINS)
+
 //COMB(ESC,     KC_ESC,  KC_I, KC_U)
 //COMB(BSPC,    KC_BSPC, KC_P, KC_O)
 //COMB(TO_ALPHA,TO(0),   KC_I, KC_O)
