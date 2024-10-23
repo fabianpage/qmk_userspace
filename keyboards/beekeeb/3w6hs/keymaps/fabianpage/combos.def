@@ -1,5 +1,5 @@
-#include "keymap_swiss_de.h"
-#include "./keycodes_fabian.h"
+/* #include "keymap_swiss_de.h" */
+//include "./keycodes_fabian.h"
 #define CH_Z KC_Y
 #define CH_DLR KC_NUHS // $
 #define CH_AE CH_ADIA
@@ -60,35 +60,35 @@ COMB(AENTER,    KC_ENTER, KC_S,  KC_D)
 COMB(BENTER,    KC_ENTER, CH_UE, KC_TAB)
 COMB(NENTER,    KC_ENTER, CH_AT, CH_SLSH)
 
-COMB(REP,     QK_REP, KC_T, KC_U)
-COMB(K0,      KC_0, KC_N, KC_R)
-COMB(AREP,    QK_AREP, KC_H, KC_V)
+COMB(REP,     CH_Z, KC_T, KC_U)
+COMB(K0,      KC_G, KC_N, KC_R)
+COMB(AREP,    KC_B, KC_H, KC_V)
 
-COMB(K7,     KC_7, KC_U, KC_I)
-COMB(K1,     KC_1, KC_R, KC_E)
-COMB(K4,     KC_4, KC_V, KC_C)
+COMB(K7,     KC_M, KC_U, KC_I)
+COMB(K1,     KC_F, KC_R, KC_E)
+COMB(K4,     KC_J, KC_V, KC_C)
 
-COMB(K8,     KC_8, KC_I, KC_O)
+COMB(K8,     KC_W, KC_I, KC_O)
 COMB(K2,     KC_2, KC_E, KC_A)
-COMB(K5,     KC_5, KC_C, KC_L)
+COMB(K5,     KC_K, KC_C, KC_L)
 
-COMB(K9,     KC_9, KC_O, KC_P)
-COMB(K3,     KC_3, KC_A, KC_S)
-COMB(K6,     KC_6, KC_L, KC_D)
+COMB(K9,     KC_X, KC_O, KC_P)
+COMB(K3,     KC_Q, KC_A, KC_S)
+COMB(K6,     CH_Y, KC_L, KC_D)
 
 
-COMB(EQL, CH_EQL,  CH_Z  , KC_M)
-COMB(AMPR, CH_AMPR,  KC_M  , KC_W)
+COMB(EQL, CH_EQL,  CH_Z  , KC_1)
+COMB(AMPR, CH_AMPR,  KC_1  , KC_2)
 //COMB(CH_,  KC_W  , KC_Q)
 //COMB(,  KC_Q  , KC_X)
-COMB(QUES, CH_QUES,  KC_G  , KC_F)
-COMB(EXLM, CH_EXLM,  KC_F  , CH_OE)
-COMB(QUOT, CH_QUOT,  CH_OE , CH_AE)
-COMB(DQUO, CH_DQUO,  CH_AE , CH_UE)
-COMB(HASH, CH_HASH,  KC_B  , KC_J)
-COMB(TILD, CH_TILD,  KC_J  , KC_K)
-COMB(GRV, CH_GRV,  KC_K  , CH_Y)
-COMB(ACUT, CH_ACUT,  CH_Y  , KC_TAB)
+COMB(QUES, CH_QUES,  KC_0  , KC_4)
+COMB(EXLM, CH_EXLM,  KC_4  , KC_5)
+COMB(QUOT, CH_QUOT,  KC_5 , KC_6)
+COMB(DQUO, CH_DQUO,  KC_6 , CH_OE)
+COMB(HASH, CH_HASH,  KC_TAB  , KC_7)
+COMB(TILD, CH_TILD,  KC_7  , KC_8)
+COMB(GRV, CH_GRV,  KC_8  , CH_9)
+COMB(ACUT, CH_ACUT,  KC_9  ,  CH_UE)
 
 
 COMB(UNDS, CH_UNDS, KC_DOWN ,  KC_UP)
@@ -112,3 +112,7 @@ COMB(RBRC, CH_RBRC, CH_DLR  ,  CH_BSLS)
 COMB(RBRCB, CH_RBRC, CH_B , CH_F )
 COMB(RABK, CH_RABK, CH_BSLS ,  CH_SLSH)
 COMB(RABKB, CH_RABK, CH_J , CH_OE )
+
+
+
+COMB(TH, ST_MACRO_TH, CH_I , CH_A )

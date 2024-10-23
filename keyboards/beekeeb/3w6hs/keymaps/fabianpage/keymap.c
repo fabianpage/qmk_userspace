@@ -16,13 +16,13 @@
 
 // #include <stdint.h>
 #include QMK_KEYBOARD_H
-#include "g/keymap_combo.h"
+#include "keymap_swiss_de.h"
 #include "action_layer.h"
 #include "keycodes.h"
 #include "modifiers.h"
-#include "keymap_swiss_de.h"
 #include "print.h"
 #include "./keycodes_fabian.h"
+#include "g/keymap_combo.h"
 
 
 
@@ -83,19 +83,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   L_BETA , OSM(MOD_LSFT) , L_NAV
 ),
 
-//          ┌──────┬─────┬───────┬───────┬───────┐
-//          │ CH_Z │  m  │   w   │   q   │   x   │
-//          ├──────┼─────┼───────┼───────┼───────┤
-//          │  g   │  f  │ CH_OE │ CH_AE │ CH_UE │
-//          ├──────┼─────┼───────┼───────┼───────┤
-//          │  b   │  j  │   k   │ CH_Y  │  tab  │
-//    ┌─────┼──────┼─────┼───────┴───────┴───────┘
+//          ┌──────┬─────┬───┬───┬───────┐
+//          │ CH_Z │  1  │ 2 │ 3 │ CH_UE │
+//          ├──────┼─────┼───┼───┼───────┤
+//          │  0   │  4  │ 5 │ 6 │ CH_OE │
+//          ├──────┼─────┼───┼───┼───────┤
+//          │ tab  │  7  │ 8 │ 9 │ CH_UE │
+//    ┌─────┼──────┼─────┼───┴───┴───────┘
 //    │     │      │     │
 //    └─────┴──────┴─────┘
 [_BETA] = LAYOUT_mirror(
-            CH_Z    , KC_M    , KC_W  , KC_Q  , KC_X  ,
-            KC_G    , KC_F    , CH_OE , CH_AE , CH_UE ,
-            KC_B    , KC_J    , KC_K  , CH_Y  , KC_TAB,
+            CH_Z    , KC_1    , KC_2 , KC_3 , CH_UE,
+            KC_0    , KC_4    , KC_5 , KC_6 , CH_OE,
+            KC_TAB  , KC_7    , KC_8 , KC_9 , CH_UE,
   _______ , _______ , _______
 ),
 
@@ -224,6 +224,11 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 return false;        // Return false to ignore further processing of key
             }
             break;
+    case ST_MACRO_TH:
+    if (record->event.pressed) {
+      SEND_STRING("th");
+    }
+    break;
     case ST_MACRO_0:
     if (record->event.pressed) {
       SEND_STRING(SS_TAP(X_S) SS_DELAY(100) SS_TAP(X_C) SS_DELAY(100) SS_TAP(X_H));

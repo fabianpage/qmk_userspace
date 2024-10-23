@@ -1,11 +1,12 @@
 #pragma once
 
-#include QMK_KEYBOARD_H
+// #include QMK_KEYBOARD_H
 
 enum custom_keycodes {
   RGB_SLD = SAFE_RANGE,
   ST_MACRO_0,
   ST_MACRO_AE,
+  ST_MACRO_TH,
 };
 
 
