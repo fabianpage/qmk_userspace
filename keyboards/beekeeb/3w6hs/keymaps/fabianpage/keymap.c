@@ -88,14 +88,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //          ├──────┼─────┼───┼───┼───────┤
 //          │  0   │  4  │ 5 │ 6 │ CH_OE │
 //          ├──────┼─────┼───┼───┼───────┤
-//          │ tab  │  7  │ 8 │ 9 │ CH_UE │
+//          │ tab  │  7  │ 8 │ 9 │ CH_AE │
 //    ┌─────┼──────┼─────┼───┴───┴───────┘
 //    │     │      │     │
 //    └─────┴──────┴─────┘
 [_BETA] = LAYOUT_mirror(
             CH_Z    , KC_1    , KC_2 , KC_3 , CH_UE,
             KC_0    , KC_4    , KC_5 , KC_6 , CH_OE,
-            KC_TAB  , KC_7    , KC_8 , KC_9 , CH_UE,
+            KC_TAB  , KC_7    , KC_8 , KC_9 , CH_AE,
   _______ , _______ , _______
 ),
 
