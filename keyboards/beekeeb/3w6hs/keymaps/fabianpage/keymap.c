@@ -100,7 +100,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ),
 
 //          ┌─────────┬─────────┬────────┬─────────┬─────────┐
-//          │ CH_PLUS │ CH_COLN │ CH_QST │ CH_EXLM │ CH_CIRC │
+//          │ CH_PLUS │ CH_EQL  │ CH_QST │ CH_EXLM │ CH_CIRC │
 //          ├─────────┼─────────┼────────┼─────────┼─────────┤
 //          │  left   │  down   │   up   │  rght   │  CH_AT  │
 //          ├─────────┼─────────┼────────┼─────────┼─────────┤
@@ -109,7 +109,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //    │     │         │         │
 //    └─────┴─────────┴─────────┘
 [_NAV] = LAYOUT_mirror(
-            CH_PLUS , CH_COLN , CH_QST , CH_EXLM  , CH_CIRC,
+            CH_PLUS , CH_EQL  , CH_QST , CH_EXLM  , CH_CIRC,
             KC_LEFT , KC_DOWN , KC_UP  , KC_RIGHT , CH_AT  ,
             CH_ASTR , CH_PERC , CH_DLR , CH_BSLS  , CH_SLSH,
   _______ , _______ , _______
