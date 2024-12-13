@@ -99,19 +99,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   _______ , _______ , _______
 ),
 
-//          ┌─────────┬─────────┬─────────┬─────────┬─────────┐
-//          │ CH_DOT  │ CH_COLN │ CH_COMM │ CH_SCLN │ CH_CIRC │
-//          ├─────────┼─────────┼─────────┼─────────┼─────────┤
-//          │  left   │  down   │   up    │  rght   │  CH_AT  │
-//          ├─────────┼─────────┼─────────┼─────────┼─────────┤
-//          │ CH_ASTR │ CH_PERC │ CH_DLR  │ CH_BSLS │ CH_SLSH │
-//    ┌─────┼─────────┼─────────┼─────────┴─────────┴─────────┘
+//          ┌─────────┬─────────┬────────┬─────────┬─────────┐
+//          │ CH_PLUS │ CH_COLN │ CH_QST │ CH_EXLM │ CH_CIRC │
+//          ├─────────┼─────────┼────────┼─────────┼─────────┤
+//          │  left   │  down   │   up   │  rght   │  CH_AT  │
+//          ├─────────┼─────────┼────────┼─────────┼─────────┤
+//          │ CH_ASTR │ CH_PERC │ CH_DLR │ CH_BSLS │ CH_SLSH │
+//    ┌─────┼─────────┼─────────┼────────┴─────────┴─────────┘
 //    │     │         │         │
 //    └─────┴─────────┴─────────┘
 [_NAV] = LAYOUT_mirror(
-            CH_DOT  , CH_COLN , CH_COMM , CH_SCLN  , CH_CIRC,
-            KC_LEFT , KC_DOWN , KC_UP   , KC_RIGHT , CH_AT  ,
-            CH_ASTR , CH_PERC , CH_DLR  , CH_BSLS  , CH_SLSH,
+            CH_PLUS , CH_COLN , CH_QST , CH_EXLM  , CH_CIRC,
+            KC_LEFT , KC_DOWN , KC_UP  , KC_RIGHT , CH_AT  ,
+            CH_ASTR , CH_PERC , CH_DLR , CH_BSLS  , CH_SLSH,
   _______ , _______ , _______
 ),
 

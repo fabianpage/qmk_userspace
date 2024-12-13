@@ -5,7 +5,7 @@
 
 #define COMBO_VARIABLE_LEN
 
-/* #define COMBO_ONLY_FROM_LAYER 0 */
+#define COMBO_ONLY_FROM_LAYER 0
 
 #define EXTRA_LONG_COMBOS
 
