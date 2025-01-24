@@ -72,14 +72,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //             ├───────────────┼───────┼───┼───┼───┤
 //             │       n       │   r   │ e │ a │ s │
 //             ├───────────────┼───────┼───┼───┼───┤
-//             │       h       │   v   │ c │ l │ d │
+//             │       h       │   f   │ c │ l │ d │
 //    ┌────────┼───────────────┼───────┼───┴───┴───┘
 //    │ L_BETA │ OSM(MOD_LSFT) │ L_NAV │
 //    └────────┴───────────────┴───────┘
 [_ALPHA] = LAYOUT_mirror(
            KC_T          , KC_U  , KC_I , KC_O , KC_P,
            KC_N          , KC_R  , KC_E , KC_A , KC_S,
-           KC_H          , KC_V  , KC_C , KC_L , KC_D,
+           KC_H          , KC_F  , KC_C , KC_L , KC_D,
   L_BETA , OSM(MOD_LSFT) , L_NAV
 ),
 
