@@ -84,34 +84,34 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ),
 
 //          ┌─────────┬─────┬───┬───┬───────┐
-//          │ CH_AMPR │  1  │ 2 │ 3 │ CH_UE │
+//          │ CH_PLUS │  1  │ 2 │ 3 │ CH_UE │
 //          ├─────────┼─────┼───┼───┼───────┤
 //          │    0    │  4  │ 5 │ 6 │ CH_OE │
 //          ├─────────┼─────┼───┼───┼───────┤
-//          │   tab   │  7  │ 8 │ 9 │ CH_AE │
+//          │ CH_ASTR │  7  │ 8 │ 9 │ CH_AE │
 //    ┌─────┼─────────┼─────┼───┴───┴───────┘
 //    │     │         │     │
 //    └─────┴─────────┴─────┘
 [_BETA] = LAYOUT_mirror(
-            CH_AMPR , KC_1    , KC_2 , KC_3 , CH_UE,
+            CH_PLUS , KC_1    , KC_2 , KC_3 , CH_UE,
             KC_0    , KC_4    , KC_5 , KC_6 , CH_OE,
-            KC_TAB  , KC_7    , KC_8 , KC_9 , CH_AE,
+            CH_ASTR , KC_7    , KC_8 , KC_9 , CH_AE,
   _______ , _______ , _______
 ),
 
 //          ┌─────────┬─────────┬────────┬─────────┬─────────┐
-//          │ CH_PLUS │ CH_EQL  │ CH_QST │ CH_EXLM │ CH_CIRC │
+//          │ CH_DQUT │ CH_EQL  │ CH_QST │ CH_EXLM │ CH_CIRC │
 //          ├─────────┼─────────┼────────┼─────────┼─────────┤
 //          │  left   │  down   │   up   │  rght   │  CH_AT  │
 //          ├─────────┼─────────┼────────┼─────────┼─────────┤
-//          │ CH_ASTR │ CH_PERC │ CH_DLR │ CH_BSLS │ CH_SLSH │
+//          │ CH_QUOT │ CH_PERC │ CH_DLR │ CH_BSLS │ CH_SLSH │
 //    ┌─────┼─────────┼─────────┼────────┴─────────┴─────────┘
 //    │     │         │         │
 //    └─────┴─────────┴─────────┘
 [_NAV] = LAYOUT_mirror(
-            CH_PLUS , CH_EQL  , CH_QST , CH_EXLM  , CH_CIRC,
+            CH_DQUT , CH_EQL  , CH_QST , CH_EXLM  , CH_CIRC,
             KC_LEFT , KC_DOWN , KC_UP  , KC_RIGHT , CH_AT  ,
-            CH_ASTR , CH_PERC , CH_DLR , CH_BSLS  , CH_SLSH,
+            CH_QUOT , CH_PERC , CH_DLR , CH_BSLS  , CH_SLSH,
   _______ , _______ , _______
 ),
 
