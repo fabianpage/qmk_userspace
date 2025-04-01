@@ -33,3 +33,11 @@ enum custom_keycodes {
 #define CH_MORE S(KC_NUBS)
 #define CH_DQUT S(CH_2)
 // #define CH_PLUS S(KC_1)
+//
+enum layers {
+    _ALPHA = 0,
+    _BETA,
+    _NAV,
+    _NUM,
+    _BRC,
+};
