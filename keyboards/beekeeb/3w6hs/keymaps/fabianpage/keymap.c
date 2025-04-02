@@ -297,16 +297,16 @@ const key_override_t f10override = ko_make_basic(MOD_MASK_SHIFT, KC_0, KC_F10);
 // This globally defines all key overrides to be used
 const key_override_t *key_overrides[] = {
 	// &delete_key_override,
-    &f1override,
-    &f2override,
-    &f3override,
-    &f4override,
-    &f5override,
-    &f6override,
-    &f7override,
-    &f8override,
-    &f9override,
-    &f10override,
+    // &f1override,
+    // &f2override,
+    // &f3override,
+    // &f4override,
+    // &f5override,
+    // &f6override,
+    // &f7override,
+    // &f8override,
+    // &f9override,
+    // &f10override,
 };
 
 bool caps_word_press_user(uint16_t keycode) {
