@@ -20,7 +20,7 @@
 #include "action_layer.h"
 #include "keycodes.h"
 #include "modifiers.h"
-#include "print.h"
+// #include "print.h"
 #include "./keycodes_fabian.h"
 #include "g/keymap_combo.h"
 
@@ -58,19 +58,19 @@
 // #define LAYOUT_mirror(k0,k1,k2,k3,k4, k5,k6,k7,k8,k9, k10,k11,k12,k13,k14, k15,k16,k17) LAYOUT_split_3x5_3(k4,k3,k2,k1,k0, k0,k1,k2,k3,k4, k9,k8,k7,k6,k5, k5,k6,k7,k8,k9, k14,k13,k12,k11,k10, k10,k11,k12,k13,k14, k17, k16, k15, k15, k16,k17)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-//             ┌───────────────┬───────┬───┬───┬─────────────┐
-//             │       t       │   u   │ i │ o │      p      │
-//             ├───────────────┼───────┼───┼───┼─────────────┤
-//             │       r       │   n   │ e │ a │ LT(_BRC, s) │
-//             ├───────────────┼───────┼───┼───┼─────────────┤
-//             │       h       │   f   │ c │ l │      d      │
-//    ┌────────┼───────────────┼───────┼───┴───┴─────────────┘
+//             ┌───────────────┬───────┬───┬───┬──────────────┐
+//             │       t       │   u   │ i │ o │ LT(_BETA, p) │
+//             ├───────────────┼───────┼───┼───┼──────────────┤
+//             │       r       │   n   │ e │ a │ LT(_BRC, s)  │
+//             ├───────────────┼───────┼───┼───┼──────────────┤
+//             │       h       │   f   │ c │ l │ LT(_NAV, d)  │
+//    ┌────────┼───────────────┼───────┼───┴───┴──────────────┘
 //    │ L_BETA │ OSM(MOD_LSFT) │ L_NAV │
 //    └────────┴───────────────┴───────┘
 [_ALPHA] = LAYOUT_mirror(
-           KC_T          , KC_U  , KC_I , KC_O , KC_P          ,
-           KC_R          , KC_N  , KC_E , KC_A , LT(_BRC, KC_S),
-           KC_H          , KC_F  , KC_C , KC_L , KC_D          ,
+           KC_T          , KC_U  , KC_I , KC_O , LT(_BETA, KC_P),
+           KC_R          , KC_N  , KC_E , KC_A , LT(_BRC, KC_S) ,
+           KC_H          , KC_F  , KC_C , KC_L , LT(_NAV, KC_D) ,
   L_BETA , OSM(MOD_LSFT) , L_NAV
 ),
 
@@ -166,16 +166,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 void keyboard_post_init_user(void) {
   // Customise these values to desired behaviour
-  debug_enable=true;
+  // debug_enable=true;
   // debug_matrix=true;
-  debug_keyboard=true;
+  // debug_keyboard=true;
   //debug_mouse=true;
 }
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     uint8_t mod_state;
         mod_state = get_mods();
-        uprintf("KL: kc: 0x%04X, col: %2u, row: %2u, pressed: %u, time: %5u, int: %u, count: %u\n", keycode, record->event.key.col, record->event.key.row, record->event.pressed, record->event.time, record->tap.interrupted, record->tap.count);
+        // uprintf("KL: kc: 0x%04X, col: %2u, row: %2u, pressed: %u, time: %5u, int: %u, count: %u\n", keycode, record->event.key.col, record->event.key.row, record->event.pressed, record->event.time, record->tap.interrupted, record->tap.count);
   switch (keycode) {
                 case LCTL_T(CH_DQUT):
             if (record->tap.count && record->event.pressed) {
@@ -282,32 +282,32 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 //
 
 
-const key_override_t delete_key_override = ko_make_basic(MOD_MASK_SHIFT, KC_BSPC, KC_DEL);
-const key_override_t f1override = ko_make_basic(MOD_MASK_SHIFT, KC_1, KC_F1);
-const key_override_t f2override = ko_make_basic(MOD_MASK_SHIFT, KC_2, KC_F2);
-const key_override_t f3override = ko_make_basic(MOD_MASK_SHIFT, KC_3, KC_F3);
-const key_override_t f4override = ko_make_basic(MOD_MASK_SHIFT, KC_4, KC_F4);
-const key_override_t f5override = ko_make_basic(MOD_MASK_SHIFT, KC_5, KC_F5);
-const key_override_t f6override = ko_make_basic(MOD_MASK_SHIFT, KC_6, KC_F6);
-const key_override_t f7override = ko_make_basic(MOD_MASK_SHIFT, KC_7, KC_F7);
-const key_override_t f8override = ko_make_basic(MOD_MASK_SHIFT, KC_8, KC_F8);
-const key_override_t f9override = ko_make_basic(MOD_MASK_SHIFT, KC_9, KC_F9);
-const key_override_t f10override = ko_make_basic(MOD_MASK_SHIFT, KC_0, KC_F10);
-
-// This globally defines all key overrides to be used
-const key_override_t *key_overrides[] = {
-	// &delete_key_override,
-    // &f1override,
-    // &f2override,
-    // &f3override,
-    // &f4override,
-    // &f5override,
-    // &f6override,
-    // &f7override,
-    // &f8override,
-    // &f9override,
-    // &f10override,
-};
+// const key_override_t delete_key_override = ko_make_basic(MOD_MASK_SHIFT, KC_BSPC, KC_DEL);
+// const key_override_t f1override = ko_make_basic(MOD_MASK_SHIFT, KC_1, KC_F1);
+// const key_override_t f2override = ko_make_basic(MOD_MASK_SHIFT, KC_2, KC_F2);
+// const key_override_t f3override = ko_make_basic(MOD_MASK_SHIFT, KC_3, KC_F3);
+// const key_override_t f4override = ko_make_basic(MOD_MASK_SHIFT, KC_4, KC_F4);
+// const key_override_t f5override = ko_make_basic(MOD_MASK_SHIFT, KC_5, KC_F5);
+// const key_override_t f6override = ko_make_basic(MOD_MASK_SHIFT, KC_6, KC_F6);
+// const key_override_t f7override = ko_make_basic(MOD_MASK_SHIFT, KC_7, KC_F7);
+// const key_override_t f8override = ko_make_basic(MOD_MASK_SHIFT, KC_8, KC_F8);
+// const key_override_t f9override = ko_make_basic(MOD_MASK_SHIFT, KC_9, KC_F9);
+// const key_override_t f10override = ko_make_basic(MOD_MASK_SHIFT, KC_0, KC_F10);
+//
+// // This globally defines all key overrides to be used
+// const key_override_t *key_overrides[] = {
+// 	// &delete_key_override,
+//     // &f1override,
+//     // &f2override,
+//     // &f3override,
+//     // &f4override,
+//     // &f5override,
+//     // &f6override,
+//     // &f7override,
+//     // &f8override,
+//     // &f9override,
+//     // &f10override,
+// };
 
 bool caps_word_press_user(uint16_t keycode) {
     switch (keycode) {
@@ -330,3 +330,9 @@ bool caps_word_press_user(uint16_t keycode) {
             return false;  // Deactivate Caps Word.
     }
 }
+
+// tap_dance_action_t tap_dance_actions[] = {
+//     // Tap once for Escape, twice for Caps Lock
+//     [TD_D_NAV] = ACTION_TAP_DANCE_LAYER_TOGGLE(KC_D, _BETA),
+//     [TD_P_NUM] = ACTION_TAP_DANCE_LAYER_TOGGLE(KC_P, _NAV),
+// };

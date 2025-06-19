@@ -7,6 +7,8 @@ enum custom_keycodes {
   ST_MACRO_0,
   ST_MACRO_AE,
   ST_MACRO_TH,
+  TD_P_NUM,
+  TD_D_NAV,
 };
 
 
