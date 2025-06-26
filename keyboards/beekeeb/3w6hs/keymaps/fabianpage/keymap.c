@@ -58,20 +58,20 @@
 // #define LAYOUT_mirror(k0,k1,k2,k3,k4, k5,k6,k7,k8,k9, k10,k11,k12,k13,k14, k15,k16,k17) LAYOUT_split_3x5_3(k4,k3,k2,k1,k0, k0,k1,k2,k3,k4, k9,k8,k7,k6,k5, k5,k6,k7,k8,k9, k14,k13,k12,k11,k10, k10,k11,k12,k13,k14, k17, k16, k15, k15, k16,k17)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-//             ┌───────────────┬───────┬───┬───┬──────────────┐
-//             │       t       │   u   │ i │ o │ LT(_BETA, p) │
-//             ├───────────────┼───────┼───┼───┼──────────────┤
-//             │       r       │   n   │ e │ a │ LT(_BRC, s)  │
-//             ├───────────────┼───────┼───┼───┼──────────────┤
-//             │       h       │   f   │ c │ l │ LT(_NAV, d)  │
-//    ┌────────┼───────────────┼───────┼───┴───┴──────────────┘
-//    │ L_BETA │ OSM(MOD_LSFT) │ L_NAV │
-//    └────────┴───────────────┴───────┘
+//        ┌───────────────┬───┬───┬───┬──────────────┐
+//        │ LT(_BETA, t)  │ u │ i │ o │ LT(_BETA, p) │
+//        ├───────────────┼───┼───┼───┼──────────────┤
+//        │  LT(_BRC, r)  │ n │ e │ a │ LT(_BRC, s)  │
+//        ├───────────────┼───┼───┼───┼──────────────┤
+//        │  LT(_NAV, h)  │ f │ c │ l │ LT(_NAV, d)  │
+//    ┌───┼───────────────┼───┼───┴───┴──────────────┘
+//    │ n │ OSM(MOD_LSFT) │ a │
+//    └───┴───────────────┴───┘
 [_ALPHA] = LAYOUT_mirror(
-           KC_T          , KC_U  , KC_I , KC_O , LT(_BETA, KC_P),
-           KC_R          , KC_N  , KC_E , KC_A , LT(_BRC, KC_S) ,
-           KC_H          , KC_F  , KC_C , KC_L , LT(_NAV, KC_D) ,
-  L_BETA , OSM(MOD_LSFT) , L_NAV
+         LT(_BETA, KC_T) , KC_U , KC_I , KC_O , LT(_BETA, KC_P),
+         LT(_BRC, KC_R)  , KC_N , KC_E , KC_A , LT(_BRC, KC_S) ,
+         LT(_NAV, KC_H)  , KC_F , KC_C , KC_L , LT(_NAV, KC_D) ,
+  KC_N , OSM(MOD_LSFT)   , KC_A
 ),
 
 //              ┌─────────┬─────┬───┬───┬───────┐

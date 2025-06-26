@@ -1,0 +1,1086 @@
+
+
+s  <Tab>       *@<Lua 456: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/blink.cmp/lua/blink/cmp/keymap/apply.lua:0>
+                 blink.cmp
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+x  <Space>     *@<Lua 38: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after "<Space>"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  <Space>     *@<Lua 39: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after "<Space>"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  "           *@<Lua 30: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after """
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  "           *@<Lua 56: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after """
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  '           *@<Lua 54: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after "'"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [           *@<Lua 129: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after "["
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  \           *@<Lua 130: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after "\"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]           *@<Lua 128: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after "]"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  `           *@<Lua 57: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after "`"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  `           *@<Lua 55: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after "`"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  grc         *@<Lua 428: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/nvim-treesitter/lua/nvim-treesitter/incremental_selection.lua:0>
+                 Increment selection to surrounding scope
+	Zuletzt gesetzt in /nix/store/z89r2jsp80bqy9bzaqim5vqhpvb50f34-vimplugin-nvim-treesitter-2025-03-29/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+x  grn         *@<Lua 427: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/nvim-treesitter/lua/nvim-treesitter/incremental_selection.lua:0>
+                 Increment selection to named node
+	Zuletzt gesetzt in /nix/store/z89r2jsp80bqy9bzaqim5vqhpvb50f34-vimplugin-nvim-treesitter-2025-03-29/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+n  gnn         *@<Lua 426: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/nvim-treesitter/lua/nvim-treesitter/incremental_selection.lua:0>
+                 Start selecting nodes with nvim-treesitter
+	Zuletzt gesetzt in /nix/store/z89r2jsp80bqy9bzaqim5vqhpvb50f34-vimplugin-nvim-treesitter-2025-03-29/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+x  grm         *@<Lua 425: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/nvim-treesitter/lua/nvim-treesitter/incremental_selection.lua:0>
+                 Shrink selection to previous named node
+	Zuletzt gesetzt in /nix/store/z89r2jsp80bqy9bzaqim5vqhpvb50f34-vimplugin-nvim-treesitter-2025-03-29/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+x  g           *@<Lua 29: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after "g"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  g           *@<Lua 28: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after "g"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  s           *@<Lua 40: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after "s"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  v           *@<Lua 41: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after "v"
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+x  z           *@<Lua 131: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after "z"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  z           *@<Lua 132: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after "z"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+s  <S-Tab>     *@<Lua 565: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/blink.cmp/lua/blink/cmp/keymap/apply.lua:0>
+                 blink.cmp
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+s  <C-K>       *@<Lua 555: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/blink.cmp/lua/blink/cmp/keymap/apply.lua:0>
+                 blink.cmp
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  <C-W>       *@<Lua 133: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after "<C-W>"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  ä           *@<Lua 34: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after "ä"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ä           *@<Lua 35: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after "ä"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  ö           *@<Lua 32: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Query keys after "ö"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+s  <Tab>       * <Lua 24: vim/_defaults.lua:0>
+                 vim.snippet.jump if active, otherwise <Tab>
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+o  <CR>        * <Cmd>lua MiniJump2d.start()<CR>
+                 Start 2d jumping
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  <CR>        * <Lua 180: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/jump2d.lua:0>
+                 Start 2d jumping
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  <CR>        * <Lua 175: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/jump2d.lua:0>
+                 Start 2d jumping
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  <Esc>       * <Cmd>nohlsearch<CR>
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  #           * <Lua 8: vim/_defaults.lua:0>
+                 :help v_#-default
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+o  %             <Plug>(MatchitOperationForward)
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 74
+x  %             <Plug>(MatchitVisualForward)
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 72
+n  %             <Plug>(MatchitNormalForward)
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 70
+n  &           * :&&<CR>
+                 :help &-default
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+x  *           * <Lua 3: vim/_defaults.lua:0>
+                 :help v_star-default
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+o  ;           * <Lua 174: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/jump.lua:0>
+                 Repeat jump
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  ;           * <Cmd>lua MiniJump.jump()<CR>
+                 Repeat jump
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ;           * <Cmd>lua MiniJump.jump()<CR>
+                 Repeat jump
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  <CTRL>-F    * <Cmd>lua vim.lsp.buf.signature_help()<CR>
+                 signature_help
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  @           * <Lua 127: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Execute macro without 'mini.clue' triggers
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  @           * mode() ==# 'V' ? ':normal! @'.getcharstr().'<CR>' : '@'
+                 :help v_@-default
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+o  F           * <Lua 171: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/jump.lua:0>
+                 Jump backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  F           * <Cmd>lua MiniJump.smart_jump(true, false)<CR>
+                 Jump backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  F           * <Cmd>lua MiniJump.smart_jump(true, false)<CR>
+                 Jump backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  Q           * <Lua 126: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/clue.lua:0>
+                 Execute macro without 'mini.clue' triggers
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  Q           * mode() ==# 'V' ? ':normal! @<C-R>=reg_recorded()<CR><CR>' : 'Q'
+                 :help v_Q-default
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+   S           * <Lua 306: /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua:0>
+                 Jump
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  T           * <Lua 173: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/jump.lua:0>
+                 Jump backward till
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  T           * <Cmd>lua MiniJump.smart_jump(true, true)<CR>
+                 Jump backward till
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  T           * <Cmd>lua MiniJump.smart_jump(true, true)<CR>
+                 Jump backward till
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  Y           * y$
+                 :help Y-default
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+o  [%            <Plug>(MatchitOperationMultiBackward)
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 82
+x  [%            <Plug>(MatchitVisualMultiBackward)
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 80
+n  [%            <Plug>(MatchitNormalMultiBackward)
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 78
+o  [h          * V<Cmd>lua MiniDiff.goto_hunk('prev')<CR>
+                 Previous hunk
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  [h          * <Cmd>lua MiniDiff.goto_hunk('prev')<CR>
+                 Previous hunk
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [h          * <Cmd>lua MiniDiff.goto_hunk('prev')<CR>
+                 Previous hunk
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  [H          * V<Cmd>lua MiniDiff.goto_hunk('first')<CR>
+                 First hunk
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  [H          * <Cmd>lua MiniDiff.goto_hunk('first')<CR>
+                 First hunk
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [H          * <Cmd>lua MiniDiff.goto_hunk('first')<CR>
+                 First hunk
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [y          * <Cmd>lua MiniBracketed.yank('backward')<CR>
+                 Yank backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [Y          * <Cmd>lua MiniBracketed.yank('first')<CR>
+                 Yank first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [w          * <Cmd>lua MiniBracketed.window('backward')<CR>
+                 Window backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [W          * <Cmd>lua MiniBracketed.window('first')<CR>
+                 Window first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [u          * <Cmd>lua MiniBracketed.undo('backward')<CR>
+                 Undo backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [U          * <Cmd>lua MiniBracketed.undo('first')<CR>
+                 Undo first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  [t          * v<Cmd>lua MiniBracketed.treesitter('backward')<CR>
+                 Treesitter backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  [t          * <Cmd>lua MiniBracketed.treesitter('backward')<CR>
+                 Treesitter backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  [T          * v<Cmd>lua MiniBracketed.treesitter('first')<CR>
+                 Treesitter first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  [T          * <Cmd>lua MiniBracketed.treesitter('first')<CR>
+                 Treesitter first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [o          * <Cmd>lua MiniBracketed.oldfile('backward')<CR>
+                 Oldfile backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [O          * <Cmd>lua MiniBracketed.oldfile('first')<CR>
+                 Oldfile first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  [j          * v<Cmd>lua MiniBracketed.jump('backward')<CR>
+                 Jump backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [j          * <Cmd>lua MiniBracketed.jump('backward')<CR>
+                 Jump backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  [J          * v<Cmd>lua MiniBracketed.jump('first')<CR>
+                 Jump first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [J          * <Cmd>lua MiniBracketed.jump('first')<CR>
+                 Jump first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  [i          * <Cmd>lua MiniIndentscope.operator('top')<CR>
+                 Go to indent scope top
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  [i          * <Cmd>lua MiniIndentscope.operator('top')<CR>
+                 Go to indent scope top
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [i          * <Cmd>lua MiniIndentscope.operator('top', true)<CR>
+                 Go to indent scope top
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  [I          * V<Cmd>lua MiniBracketed.indent('first')<CR>
+                 Indent first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  [I          * <Cmd>lua MiniBracketed.indent('first')<CR>
+                 Indent first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [I          * <Cmd>lua MiniBracketed.indent('first')<CR>
+                 Indent first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [f          * <Cmd>lua MiniBracketed.file('backward')<CR>
+                 File backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [F          * <Cmd>lua MiniBracketed.file('first')<CR>
+                 File first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  [d          * v<Cmd>lua MiniBracketed.diagnostic('backward')<CR>
+                 Diagnostic backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  [d          * <Cmd>lua MiniBracketed.diagnostic('backward')<CR>
+                 Diagnostic backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  [D          * v<Cmd>lua MiniBracketed.diagnostic('first')<CR>
+                 Diagnostic first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  [D          * <Cmd>lua MiniBracketed.diagnostic('first')<CR>
+                 Diagnostic first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  [x          * V<Cmd>lua MiniBracketed.conflict('backward')<CR>
+                 Conflict backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  [x          * <Cmd>lua MiniBracketed.conflict('backward')<CR>
+                 Conflict backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [x          * <Cmd>lua MiniBracketed.conflict('backward')<CR>
+                 Conflict backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  [X          * V<Cmd>lua MiniBracketed.conflict('first')<CR>
+                 Conflict first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  [X          * <Cmd>lua MiniBracketed.conflict('first')<CR>
+                 Conflict first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [X          * <Cmd>lua MiniBracketed.conflict('first')<CR>
+                 Conflict first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  [c          * V<Cmd>lua MiniBracketed.comment('backward')<CR>
+                 Comment backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  [c          * <Cmd>lua MiniBracketed.comment('backward')<CR>
+                 Comment backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [c          * <Cmd>lua MiniBracketed.comment('backward')<CR>
+                 Comment backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  [C          * V<Cmd>lua MiniBracketed.comment('first')<CR>
+                 Comment first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  [C          * <Cmd>lua MiniBracketed.comment('first')<CR>
+                 Comment first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [C          * <Cmd>lua MiniBracketed.comment('first')<CR>
+                 Comment first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [<Space>    * <Lua 58: vim/_defaults.lua:0>
+                 Add empty line above cursor
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  [B          * <Cmd>lua MiniBracketed.buffer('first')<CR>
+                 Buffer first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [b          * <Cmd>lua MiniBracketed.buffer('backward')<CR>
+                 Buffer backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [<C-T>      * <Lua 52: vim/_defaults.lua:0>
+                  :ptprevious
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  [T          * <Cmd>lua MiniBracketed.treesitter('first')<CR>
+                 Treesitter first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [t          * <Cmd>lua MiniBracketed.treesitter('backward')<CR>
+                 Treesitter backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [A          * <Lua 46: vim/_defaults.lua:0>
+                 :rewind
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  [a          * <Lua 44: vim/_defaults.lua:0>
+                 :previous
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  [<C-L>      * <Lua 42: vim/_defaults.lua:0>
+                 :lpfile
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  [L          * <Cmd>lua MiniBracketed.location('first')<CR>
+                 Location first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [l          * <Cmd>lua MiniBracketed.location('backward')<CR>
+                 Location backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [<C-Q>      * <Lua 36: vim/_defaults.lua:0>
+                 :cpfile
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  [Q          * <Cmd>lua MiniBracketed.quickfix('first')<CR>
+                 Quickfix first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [q          * <Cmd>lua MiniBracketed.quickfix('backward')<CR>
+                 Quickfix backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [D          * <Cmd>lua MiniBracketed.diagnostic('first')<CR>
+                 Diagnostic first
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  [d          * <Cmd>lua MiniBracketed.diagnostic('backward')<CR>
+                 Diagnostic backward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  ]%            <Plug>(MatchitOperationMultiForward)
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 83
+x  ]%            <Plug>(MatchitVisualMultiForward)
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 81
+n  ]%            <Plug>(MatchitNormalMultiForward)
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 79
+o  ]H          * V<Cmd>lua MiniDiff.goto_hunk('last')<CR>
+                 Last hunk
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  ]H          * <Cmd>lua MiniDiff.goto_hunk('last')<CR>
+                 Last hunk
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]H          * <Cmd>lua MiniDiff.goto_hunk('last')<CR>
+                 Last hunk
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  ]h          * V<Cmd>lua MiniDiff.goto_hunk('next')<CR>
+                 Next hunk
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  ]h          * <Cmd>lua MiniDiff.goto_hunk('next')<CR>
+                 Next hunk
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]h          * <Cmd>lua MiniDiff.goto_hunk('next')<CR>
+                 Next hunk
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]y          * <Cmd>lua MiniBracketed.yank('forward')<CR>
+                 Yank forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]Y          * <Cmd>lua MiniBracketed.yank('last')<CR>
+                 Yank last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]w          * <Cmd>lua MiniBracketed.window('forward')<CR>
+                 Window forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]W          * <Cmd>lua MiniBracketed.window('last')<CR>
+                 Window last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]u          * <Cmd>lua MiniBracketed.undo('forward')<CR>
+                 Undo forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]U          * <Cmd>lua MiniBracketed.undo('last')<CR>
+                 Undo last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  ]t          * v<Cmd>lua MiniBracketed.treesitter('forward')<CR>
+                 Treesitter forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  ]t          * <Cmd>lua MiniBracketed.treesitter('forward')<CR>
+                 Treesitter forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  ]T          * v<Cmd>lua MiniBracketed.treesitter('last')<CR>
+                 Treesitter last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  ]T          * <Cmd>lua MiniBracketed.treesitter('last')<CR>
+                 Treesitter last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]o          * <Cmd>lua MiniBracketed.oldfile('forward')<CR>
+                 Oldfile forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]O          * <Cmd>lua MiniBracketed.oldfile('last')<CR>
+                 Oldfile last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  ]j          * v<Cmd>lua MiniBracketed.jump('forward')<CR>
+                 Jump forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]j          * <Cmd>lua MiniBracketed.jump('forward')<CR>
+                 Jump forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  ]J          * v<Cmd>lua MiniBracketed.jump('last')<CR>
+                 Jump last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]J          * <Cmd>lua MiniBracketed.jump('last')<CR>
+                 Jump last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  ]i          * <Cmd>lua MiniIndentscope.operator('bottom')<CR>
+                 Go to indent scope bottom
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  ]i          * <Cmd>lua MiniIndentscope.operator('bottom')<CR>
+                 Go to indent scope bottom
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]i          * <Cmd>lua MiniIndentscope.operator('bottom', true)<CR>
+                 Go to indent scope bottom
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  ]I          * V<Cmd>lua MiniBracketed.indent('last')<CR>
+                 Indent last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  ]I          * <Cmd>lua MiniBracketed.indent('last')<CR>
+                 Indent last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]I          * <Cmd>lua MiniBracketed.indent('last')<CR>
+                 Indent last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]f          * <Cmd>lua MiniBracketed.file('forward')<CR>
+                 File forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]F          * <Cmd>lua MiniBracketed.file('last')<CR>
+                 File last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  ]d          * v<Cmd>lua MiniBracketed.diagnostic('forward')<CR>
+                 Diagnostic forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  ]d          * <Cmd>lua MiniBracketed.diagnostic('forward')<CR>
+                 Diagnostic forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  ]D          * v<Cmd>lua MiniBracketed.diagnostic('last')<CR>
+                 Diagnostic last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  ]D          * <Cmd>lua MiniBracketed.diagnostic('last')<CR>
+                 Diagnostic last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  ]x          * V<Cmd>lua MiniBracketed.conflict('forward')<CR>
+                 Conflict forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  ]x          * <Cmd>lua MiniBracketed.conflict('forward')<CR>
+                 Conflict forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]x          * <Cmd>lua MiniBracketed.conflict('forward')<CR>
+                 Conflict forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  ]X          * V<Cmd>lua MiniBracketed.conflict('last')<CR>
+                 Conflict last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  ]X          * <Cmd>lua MiniBracketed.conflict('last')<CR>
+                 Conflict last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]X          * <Cmd>lua MiniBracketed.conflict('last')<CR>
+                 Conflict last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  ]c          * V<Cmd>lua MiniBracketed.comment('forward')<CR>
+                 Comment forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  ]c          * <Cmd>lua MiniBracketed.comment('forward')<CR>
+                 Comment forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]c          * <Cmd>lua MiniBracketed.comment('forward')<CR>
+                 Comment forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  ]C          * V<Cmd>lua MiniBracketed.comment('last')<CR>
+                 Comment last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  ]C          * <Cmd>lua MiniBracketed.comment('last')<CR>
+                 Comment last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]C          * <Cmd>lua MiniBracketed.comment('last')<CR>
+                 Comment last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]<Space>    * <Lua 59: vim/_defaults.lua:0>
+                 Add empty line below cursor
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  ]B          * <Cmd>lua MiniBracketed.buffer('last')<CR>
+                 Buffer last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]b          * <Cmd>lua MiniBracketed.buffer('forward')<CR>
+                 Buffer forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]<C-T>      * <Lua 53: vim/_defaults.lua:0>
+                 :ptnext
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  ]T          * <Cmd>lua MiniBracketed.treesitter('last')<CR>
+                 Treesitter last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]t          * <Cmd>lua MiniBracketed.treesitter('forward')<CR>
+                 Treesitter forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]A          * <Lua 47: vim/_defaults.lua:0>
+                 :last
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  ]a          * <Lua 45: vim/_defaults.lua:0>
+                 :next
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  ]<C-L>      * <Lua 43: vim/_defaults.lua:0>
+                 :lnfile
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  ]L          * <Cmd>lua MiniBracketed.location('last')<CR>
+                 Location last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]l          * <Cmd>lua MiniBracketed.location('forward')<CR>
+                 Location forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]<C-Q>      * <Lua 37: vim/_defaults.lua:0>
+                 :cnfile
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  ]Q          * <Cmd>lua MiniBracketed.quickfix('last')<CR>
+                 Quickfix last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]q          * <Cmd>lua MiniBracketed.quickfix('forward')<CR>
+                 Quickfix forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]D          * <Cmd>lua MiniBracketed.diagnostic('last')<CR>
+                 Diagnostic last
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ]d          * <Cmd>lua MiniBracketed.diagnostic('forward')<CR>
+                 Diagnostic forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  a%            <Plug>(MatchitVisualTextObject)
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 86
+o  ai          * <Cmd>lua MiniIndentscope.textobject(true)<CR>
+                 Object scope with border
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  ai          * <Cmd>lua MiniIndentscope.textobject(true)<CR>
+                 Object scope with border
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  al            <Lua 206: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/ai.lua:0>
+                 Around last textobject
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  an            <Lua 205: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/ai.lua:0>
+                 Around next textobject
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  al            <Lua 202: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/ai.lua:0>
+                 Around last textobject
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  an            <Lua 201: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/ai.lua:0>
+                 Around next textobject
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  a             <Lua 199: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/ai.lua:0>
+                 Around textobject
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  a             <Lua 197: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/ai.lua:0>
+                 Around textobject
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  f           * <Lua 170: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/jump.lua:0>
+                 Jump forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  f           * <Cmd>lua MiniJump.smart_jump(false, false)<CR>
+                 Jump forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  f           * <Cmd>lua MiniJump.smart_jump(false, false)<CR>
+                 Jump forward
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  g%            <Plug>(MatchitOperationBackward)
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 75
+x  g%            <Plug>(MatchitVisualBackward)
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 73
+n  g%            <Plug>(MatchitNormalBackward)
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 71
+x  gs          * <Cmd>lua MiniOperators.sort('visual')<CR>
+                 Sort selection
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  gss           ^gsg_
+                 Sort line
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  gs          * v:lua.MiniOperators.sort()
+                 Sort operator
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  gy          * <Cmd>lua MiniOperators.replace('visual')<CR>
+                 Replace selection
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  gyy           gy_
+                 Replace line
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  gy          * v:lua.MiniOperators.replace()
+                 Replace operator
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  gm          * <Cmd>lua MiniOperators.multiply('visual')<CR>
+                 Multiply selection
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  gmm           gm_
+                 Multiply line
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  gm          * v:lua.MiniOperators.multiply()
+                 Multiply operator
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  gxx           gx_
+                 Exchange line
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  g=          * <Cmd>lua MiniOperators.evaluate('visual')<CR>
+                 Evaluate selection
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  g==           g=_
+                 Evaluate line
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  g=          * v:lua.MiniOperators.evaluate()
+                 Evaluate operator
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  gh          * <Cmd>lua MiniDiff.textobject()<CR>
+                 Hunk range textobject
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  gH          * <Lua 88: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/diff.lua:0>
+                 Reset hunks
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  gH          * <Lua 89: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/diff.lua:0>
+                 Reset hunks
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  gh          * <Lua 90: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/diff.lua:0>
+                 Apply hunks
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  gh          * <Lua 91: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/diff.lua:0>
+                 Apply hunks
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  g]            <Lua 196: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/ai.lua:0>
+                 Move to right "around"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  g]            <Lua 195: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/ai.lua:0>
+                 Move to right "around"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  g]            <Lua 194: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/ai.lua:0>
+                 Move to right "around"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  g[            <Lua 193: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/ai.lua:0>
+                 Move to left "around"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  g[            <Lua 192: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/ai.lua:0>
+                 Move to left "around"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  g[            <Lua 190: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/ai.lua:0>
+                 Move to left "around"
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  gO          * <Lua 20: vim/_defaults.lua:0>
+                 vim.lsp.buf.document_symbol()
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  gri         * <Lua 19: vim/_defaults.lua:0>
+                 vim.lsp.buf.implementation()
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  grr         * <Lua 18: vim/_defaults.lua:0>
+                 vim.lsp.buf.references()
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+x  gra         * <Lua 17: vim/_defaults.lua:0>
+                 vim.lsp.buf.code_action()
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  gra         * <Lua 16: vim/_defaults.lua:0>
+                 vim.lsp.buf.code_action()
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  grn         * <Lua 15: vim/_defaults.lua:0>
+                 vim.lsp.buf.rename()
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+o  gc          * <Cmd>lua MiniComment.textobject()<CR>
+                 Comment textobject
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  gcc         * <Lua 12: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/comment.lua:0>
+                 Comment line
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  gc          * <Lua 11: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/comment.lua:0>
+                 Comment selection
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  gc          * <Lua 125: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/comment.lua:0>
+                 Comment
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  gx          * <Cmd>lua MiniOperators.exchange('visual')<CR>
+                 Exchange selection
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  gx          * v:lua.MiniOperators.exchange()
+                 Exchange operator
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  ii          * <Cmd>lua MiniIndentscope.textobject(false)<CR>
+                 Object scope
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  ii          * <Cmd>lua MiniIndentscope.textobject(false)<CR>
+                 Object scope
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  il            <Lua 208: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/ai.lua:0>
+                 Inside last textobject
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  in            <Lua 207: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/ai.lua:0>
+                 Inside next textobject
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  il            <Lua 204: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/ai.lua:0>
+                 Inside last textobject
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  in            <Lua 203: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/ai.lua:0>
+                 Inside next textobject
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  i             <Lua 200: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/ai.lua:0>
+                 Inside textobject
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  i             <Lua 198: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/ai.lua:0>
+                 Inside textobject
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  shn         * <Lua 237: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/surround.lua:0>
+                 Highlight next surrounding
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  sFn         * <Lua 236: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/surround.lua:0>
+                 Find next left surrounding
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  sfn         * <Lua 235: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/surround.lua:0>
+                 Find next right surrounding
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  srn         * <Lua 234: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/surround.lua:0>
+                 Replace next surrounding
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  sdn         * <Lua 233: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/surround.lua:0>
+                 Delete next surrounding
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  shl         * <Lua 232: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/surround.lua:0>
+                 Highlight previous surrounding
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  sFl         * <Lua 231: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/surround.lua:0>
+                 Find previous left surrounding
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  sfl         * <Lua 230: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/surround.lua:0>
+                 Find previous right surrounding
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  srl         * <Lua 229: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/surround.lua:0>
+                 Replace previous surrounding
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  sdl         * <Lua 228: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/surround.lua:0>
+                 Delete previous surrounding
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  sa          * :<C-U>lua MiniSurround.add('visual')<CR>
+                 Add surrounding to selection
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  sn          * <Lua 227: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/surround.lua:0>
+                 Update `MiniSurround.config.n_lines`
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  sh          * <Lua 226: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/surround.lua:0>
+                 Highlight surrounding
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  sF          * <Lua 225: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/surround.lua:0>
+                 Find left surrounding
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  sf          * <Lua 224: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/surround.lua:0>
+                 Find right surrounding
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  sr          * <Lua 223: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/surround.lua:0>
+                 Replace surrounding
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  sd          * <Lua 222: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/surround.lua:0>
+                 Delete surrounding
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  sa          * <Lua 214: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/surround.lua:0>
+                 Add surrounding
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  t           * <Lua 172: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/mini.nvim/lua/mini/jump.lua:0>
+                 Jump forward till
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  t           * <Cmd>lua MiniJump.smart_jump(false, true)<CR>
+                 Jump forward till
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  t           * <Cmd>lua MiniJump.smart_jump(false, true)<CR>
+                 Jump forward till
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  u           * u<Cmd>lua MiniBracketed.register_undo_state()<CR>
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+v  <Plug>BlinkCmpDotRepeatHack * <Lua 545: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/blink.cmp/lua/blink/cmp/lib/text_edits.lua:0>
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  <Plug>BlinkCmpDotRepeatHack * <Lua 548: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/blink.cmp/lua/blink/cmp/lib/text_edits.lua:0>
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  <C-Bslash>  * :<C-U>TmuxNavigatePrevious<CR>
+	Zuletzt gesetzt in /nix/store/s1z8k2x8qzhwb02pdgyihviph39ghv55-vimplugin-vim-tmux-navigator-2025-02-25/plugin/tmux_navigator.vim line 22
+n  <Plug>PlenaryTestFile * :lua require('plenary.test_harness').test_file(vim.fn.expand("%:p"))<CR>
+	Zuletzt gesetzt in /nix/store/pcasqh842dj919iahrl3q8awmnkjkk0l-vimplugin-luajit2.1-plenary.nvim-scm-1-unstable-scm-1/plugin/plenary.vim line 9
+x  <Plug>(MatchitVisualTextObject)   <Plug>(MatchitVisualMultiBackward)o<Plug>(MatchitVisualMultiForward)
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 67
+o  <Plug>(MatchitOperationMultiForward) * :<C-U>call matchit#MultiMatch("W",  "o")<CR>
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 64
+o  <Plug>(MatchitOperationMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "o")<CR>
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 63
+x  <Plug>(MatchitVisualMultiForward) * :<C-U>call matchit#MultiMatch("W",  "n")<CR>m'gv``
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 62
+x  <Plug>(MatchitVisualMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "n")<CR>m'gv``
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 61
+n  <Plug>(MatchitNormalMultiForward) * :<C-U>call matchit#MultiMatch("W",  "n")<CR>
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 60
+n  <Plug>(MatchitNormalMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "n")<CR>
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 59
+o  <Plug>(MatchitOperationBackward) * :<C-U>call matchit#Match_wrapper('',0,'o')<CR>
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 56
+o  <Plug>(MatchitOperationForward) * :<C-U>call matchit#Match_wrapper('',1,'o')<CR>
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 55
+x  <Plug>(MatchitVisualBackward) * :<C-U>call matchit#Match_wrapper('',0,'v')<CR>m'gv``
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 54
+x  <Plug>(MatchitVisualForward) * :<C-U>call matchit#Match_wrapper('',1,'v')<CR>:if col("''") != col("$") | exe ":normal! m'" | endif<CR>gv``
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 52
+n  <Plug>(MatchitNormalBackward) * :<C-U>call matchit#Match_wrapper('',0,'n')<CR>
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 51
+n  <Plug>(MatchitNormalForward) * :<C-U>call matchit#Match_wrapper('',1,'n')<CR>
+	Zuletzt gesetzt in /nix/store/78qn5fpa58m6mwi0xk3wjz20mq9q76bs-neovim-unwrapped-0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 50
+v  <C-S-H>     * <Cmd>Treewalker SwapLeft<CR>
+                 Treewalker Up
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  <C-S-H>     * <Cmd>Treewalker SwapLeft<CR>
+                 Treewalker Up
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+v  <C-S-L>     * <Cmd>Treewalker SwapRight<CR>
+                 Treewalker SwapRight
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  <C-S-L>     * <Cmd>Treewalker SwapRight<CR>
+                 Treewalker SwapRight
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+v  <C-S-J>     * <Cmd>Treewalker SwapDown<CR>
+                 Treewalker SwapDown
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  <C-S-J>     * <Cmd>Treewalker SwapDown<CR>
+                 Treewalker SwapDown
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+v  <C-S-K>     * <Cmd>Treewalker SwapUp<CR>
+                 Treewalker SwapUp
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  <C-S-K>     * <Cmd>Treewalker SwapUp<CR>
+                 Treewalker SwapUp
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+v  <C-H>       * <Cmd>Treewalker Left<CR>
+                 Treewalker Left
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  <C-H>       * :<C-U>TmuxNavigateLeft<CR>
+	Zuletzt gesetzt in /nix/store/s1z8k2x8qzhwb02pdgyihviph39ghv55-vimplugin-vim-tmux-navigator-2025-02-25/plugin/tmux_navigator.vim line 18
+v  <C-L>       * <Cmd>Treewalker Right<CR>
+                 Treewalker Right
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  <C-L>       * :<C-U>TmuxNavigateRight<CR>
+	Zuletzt gesetzt in /nix/store/s1z8k2x8qzhwb02pdgyihviph39ghv55-vimplugin-vim-tmux-navigator-2025-02-25/plugin/tmux_navigator.vim line 21
+v  <C-J>       * <Cmd>Treewalker Down<CR>
+                 Treewalker Down
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  <C-J>       * :<C-U>TmuxNavigateDown<CR>
+	Zuletzt gesetzt in /nix/store/s1z8k2x8qzhwb02pdgyihviph39ghv55-vimplugin-vim-tmux-navigator-2025-02-25/plugin/tmux_navigator.vim line 19
+v  <C-K>       * <Cmd>Treewalker Up<CR>
+                 Treewalker Up
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  <C-K>       * :<C-U>TmuxNavigateUp<CR>
+	Zuletzt gesetzt in /nix/store/s1z8k2x8qzhwb02pdgyihviph39ghv55-vimplugin-vim-tmux-navigator-2025-02-25/plugin/tmux_navigator.vim line 20
+   <C-Right>   * <Cmd>TmuxNavigateRight<CR>
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+   <C-Up>      * <Cmd>TmuxNavigateUp<CR>
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  <C-K>       * <Cmd>TmuxNavigateUp<CR>
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+   <C-Down>    * <Cmd>TmuxNavigateDown<CR>
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  <C-J>       * <Cmd>TmuxNavigateDown<CR>
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+   <C-Left>    * <Cmd>TmuxNavigateLeft<CR>
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+o  <C-H>       * <Cmd>TmuxNavigateLeft<CR>
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  <S-Up>      * <Cmd>lua MiniMove.move_line('up')<CR>
+                 Move line up
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  <S-Down>    * <Cmd>lua MiniMove.move_line('down')<CR>
+                 Move line down
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  <S-Right>   * <Cmd>lua MiniMove.move_line('right')<CR>
+                 Move line right
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  <S-Left>    * <Cmd>lua MiniMove.move_line('left')<CR>
+                 Move line left
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  <S-Up>      * <Cmd>lua MiniMove.move_selection('up')<CR>
+                 Move up
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  <S-Down>    * <Cmd>lua MiniMove.move_selection('down')<CR>
+                 Move down
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  <S-Right>   * <Cmd>lua MiniMove.move_selection('right')<CR>
+                 Move right
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+x  <S-Left>    * <Cmd>lua MiniMove.move_selection('left')<CR>
+                 Move left
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  <C-R>       * <C-R><Cmd>lua MiniBracketed.register_undo_state()<CR>
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  <C-W><C-D>    <C-W>d
+                 Show diagnostics under the cursor
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+n  <C-W>d      * <Lua 31: vim/_defaults.lua:0>
+                 Show diagnostics under the cursor
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+s  <S-Tab>     * <Lua 26: vim/_defaults.lua:0>
+                 vim.snippet.jump if active, otherwise <S-Tab>
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+s  <C-S>       * <Lua 22: vim/_defaults.lua:0>
+                 vim.lsp.buf.signature_help()
+	Zuletzt gesetzt in Lua (run Nvim with -V1 for more details)
+o  <C-L>       * <Cmd>TmuxNavigateRight<CR>
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+s  à           * ä
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+s  é           * ö
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+   öu          * i<C-R>=trim(system('uuidgen'))<CR><Esc>
+                 insert uuid
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+   öa          * <Lua 308: /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua:0>
+                 open Files
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öq          * <Lua 307: /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua:0>
+                 Open diagnostic [Q]uickfix list
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+   ön          * <Lua 300: /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua:0>
+                 notification history
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öf          * <Lua 305: /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua:0>
+                 [f]iles
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öpt         * <Cmd>Pick treesitter<CR>
+                 [t]reesitter
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öpr         * <Cmd>Pick resume<CR>
+                 [r]esume
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öpo         * <Cmd>Pick options<CR>
+                 [o]ptions
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öpm         * <Cmd>Pick marks<CR>
+                 [m]arks
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öpk         * <Cmd>Pick keymaps<CR>
+                 [k]eymaps
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öpp         * <Cmd>Pick grep_live<CR>
+                 gre[p]
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öph         * <Cmd>Pick help<CR>
+                 [h]elp
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öpgh        * <Cmd>Pick git_hunks<CR>
+                 [h]unks
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öpgc        * <Cmd>Pick git_commits<CR>
+                 [c]commits
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öpgb        * <Cmd>Pick git_branches<CR>
+                 [b]ranches
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öpd         * <Cmd>Pick diagnostic<CR>
+                 [d]iagnostic
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öpl         * <Cmd>Pick buf_lines<CR>
+                 buffers [l]ines
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öpb         * <Lua 304: /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua:0>
+                 [b]uffers
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öpf         * <Cmd>Pick files<CR>
+                 [f]iles
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öcO         * <Cmd>lua vim.lsp.buf.docoment_symbol()<CR>
+                 document [s]ymbol
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öci         * <Cmd>lua vim.lsp.buf.implementation()<CR>
+                 [i]mplementation
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öcr         * <Cmd>lua vim.lsp.buf.references()<CR>
+                 [r]eferences
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öcn         * <Cmd>lua vim.lsp.buf.rename()<CR>
+                 r[e]name
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öca         * <Cmd>lua vim.lsp.buf.code_action()<CR>
+                 code [a]ctions
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öl          * <Cmd>lua require('lint').try_lint()<CR>
+                 [l]int
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öd          * <Cmd>lua MiniDiff.toggle_overlay()<CR>
+                 git [d]iff
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+   öcc         * <Lua 303: /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua:0>
+                 Format
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ör          * <Cmd>lua MiniBufremove.delete()<CR>
+                 [r]emove buffer
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öS          * <Cmd>execute 'ConjureEvalBuf' | ConjureEval (user/restart-system!)<CR>
+                 eval buf, eval [r]estart-system
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öe          * <Cmd>ConjureEvalRootForm<CR>
+                 [e]val root
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ömm         * <Cmd>redir! >> nvim_keys.txt | silent verbose map | redir END | e nvim_keys.txt<CR>
+                 export mappings
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ömz         * <Cmd>e ~/projekte/nixvim-config/config/<CR>
+                 edit nixvim config
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öml         * <Cmd>%s@\r@@gi<CR>
+                 Remove Windows cr
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+   ösD         * <Lua 302: /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua:0>
+                 dim disable
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+   ösd         * <Lua 301: /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua:0>
+                 dim enable
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ötw         * <Cmd>setlocal wrap! wrap?<CR>
+                 Toggle 'wrap'
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öts         * <Cmd>setlocal spell! spell?<CR>
+                 Toggle 'spell'
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ötr         * <Cmd>setlocal relativenumber! relativenumber?<CR>
+                 Toggle 'relativenumber'
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ötn         * <Cmd>setlocal number! number?<CR>
+                 Toggle 'number'
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ötl         * <Cmd>setlocal list! list?<CR>
+                 Toggle 'list'
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öti         * <Cmd>setlocal ignorecase! ignorecase?<CR>
+                 Toggle 'ignorecase'
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öth         * <Cmd>let v:hlsearch = 1 - v:hlsearch | echo (v:hlsearch ? "  " : "no") . "hlsearch"<CR>
+                 Toggle search highlight
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ötd         * <Cmd>lua print(MiniBasics.toggle_diagnostic())<CR>
+                 Toggle diagnostic
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ötC         * <Cmd>setlocal cursorcolumn! cursorcolumn?<CR>
+                 Toggle 'cursorcolumn'
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ötc         * <Cmd>setlocal cursorline! cursorline?<CR>
+                 Toggle 'cursorline'
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  ötb         * <Cmd>lua vim.o.bg = vim.o.bg == "dark" and "light" or "dark"; print(vim.o.bg)<CR>
+                 Toggle 'background'
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öhr         * <Lua 80: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/lz.n/lua/lz/n/handler/keys.lua:0>
+                 visual current file
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öhv         * <Lua 79: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/lz.n/lua/lz/n/handler/keys.lua:0>
+                 visual
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öhn         * <Lua 78: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/lz.n/lua/lz/n/handler/keys.lua:0>
+                 word current file
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öhh         * <Lua 76: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/lz.n/lua/lz/n/handler/keys.lua:0>
+                 word
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öxQ         * <Lua 74: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/lz.n/lua/lz/n/handler/keys.lua:0>
+                 Quickfix List (Trouble)
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öxL         * <Lua 73: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/lz.n/lua/lz/n/handler/keys.lua:0>
+                 Location List (Trouble)
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öcl         * <Lua 72: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/lz.n/lua/lz/n/handler/keys.lua:0>
+                 LSP Definitions / references / ... (Trouble)
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öcs         * <Lua 71: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/lz.n/lua/lz/n/handler/keys.lua:0>
+                 Symbols (Trouble)
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öxX         * <Lua 70: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/lz.n/lua/lz/n/handler/keys.lua:0>
+                 Buffer Diagnostics (Trouble)
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
+n  öxx         * <Lua 60: /nix/store/1wipzv4bchbxdjp3xl5m9kx9jxgxf4a5-vim-pack-dir/pack/myNeovimPackages/start/lz.n/lua/lz/n/handler/keys.lua:0>
+                 Diagnostics (Trouble)
+	Zuletzt gesetzt in /nix/store/9s38nv11bsyh73hsz00aa2s53whsyx4l-init.lua (run Nvim with -V1 for more details)
